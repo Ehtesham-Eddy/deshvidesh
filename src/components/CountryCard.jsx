@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function CountryCard({ country, isFavorite, onToggleFavorite, onClick }) {
-  const { name, code, continent, capital } = country;
+  const { name, code, continent, capital, language } = country;
 
   // flagcdn.com URL using lowercase 2-letter ISO country code
   const flagUrl = `https://flagcdn.com/w320/${code.toLowerCase()}.png`;
@@ -49,8 +49,13 @@ export default function CountryCard({ country, isFavorite, onToggleFavorite, onC
       <div className="card-content">
         <span className="card-continent">{continent}</span>
         <h3 className="card-title">{name}</h3>
-        <div className="card-details">
-          Capital: <span>{capital}</span>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginTop: 'auto' }}>
+          <div className="card-details">
+            Capital: <span>{capital}</span>
+          </div>
+          <div className="card-details">
+            Language: <span>{language}</span>
+          </div>
         </div>
       </div>
     </div>

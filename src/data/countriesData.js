@@ -7,6 +7,7 @@ export const countriesData = [
     "code": "af",
     "continent": "Asia",
     "capital": "Kabul",
+    "language": "Pashto, Dari",
     "lat": 33.9391,
     "lng": 67.71,
     "neighbors": [
@@ -31,6 +32,7 @@ export const countriesData = [
     "code": "al",
     "continent": "Europe",
     "capital": "Tirana",
+    "language": "Albanian",
     "lat": 41.1533,
     "lng": 20.1683,
     "neighbors": [
@@ -53,6 +55,7 @@ export const countriesData = [
     "code": "dz",
     "continent": "Africa",
     "capital": "Algiers",
+    "language": "Arabic, Berber",
     "lat": 28.0339,
     "lng": 1.6596,
     "neighbors": [
@@ -78,6 +81,7 @@ export const countriesData = [
     "code": "ad",
     "continent": "Europe",
     "capital": "Andorra la Vella",
+    "language": "Catalan",
     "lat": 42.5063,
     "lng": 1.5218,
     "neighbors": [
@@ -98,6 +102,7 @@ export const countriesData = [
     "code": "ao",
     "continent": "Africa",
     "capital": "Luanda",
+    "language": "Portuguese",
     "lat": -11.2027,
     "lng": 17.8739,
     "neighbors": [
@@ -120,6 +125,7 @@ export const countriesData = [
     "code": "ag",
     "continent": "North America",
     "capital": "Saint John's",
+    "language": "English",
     "lat": 17.0608,
     "lng": -61.7964,
     "neighbors": [],
@@ -137,6 +143,7 @@ export const countriesData = [
     "code": "ar",
     "continent": "South America",
     "capital": "Buenos Aires",
+    "language": "Spanish",
     "lat": -38.4161,
     "lng": -63.6167,
     "neighbors": [
@@ -160,6 +167,7 @@ export const countriesData = [
     "code": "am",
     "continent": "Asia",
     "capital": "Yerevan",
+    "language": "Armenian",
     "lat": 40.0691,
     "lng": 45.0382,
     "neighbors": [
@@ -182,6 +190,7 @@ export const countriesData = [
     "code": "au",
     "continent": "Oceania",
     "capital": "Canberra",
+    "language": "English",
     "lat": -25.2744,
     "lng": 133.7751,
     "neighbors": [],
@@ -199,6 +208,7 @@ export const countriesData = [
     "code": "at",
     "continent": "Europe",
     "capital": "Vienna",
+    "language": "German",
     "lat": 47.5162,
     "lng": 14.5501,
     "neighbors": [
@@ -225,6 +235,7 @@ export const countriesData = [
     "code": "az",
     "continent": "Asia",
     "capital": "Baku",
+    "language": "Azerbaijani",
     "lat": 40.1431,
     "lng": 47.5769,
     "neighbors": [
@@ -248,6 +259,7 @@ export const countriesData = [
     "code": "bs",
     "continent": "North America",
     "capital": "Nassau",
+    "language": "English",
     "lat": 25.0343,
     "lng": -77.3963,
     "neighbors": [],
@@ -265,6 +277,7 @@ export const countriesData = [
     "code": "bh",
     "continent": "Asia",
     "capital": "Manama",
+    "language": "Arabic",
     "lat": 26.0667,
     "lng": 50.55,
     "neighbors": [],
@@ -282,6 +295,7 @@ export const countriesData = [
     "code": "bd",
     "continent": "Asia",
     "capital": "Dhaka",
+    "language": "Bengali",
     "lat": 23.685,
     "lng": 90.3563,
     "neighbors": [
@@ -302,6 +316,7 @@ export const countriesData = [
     "code": "bb",
     "continent": "North America",
     "capital": "Bridgetown",
+    "language": "English",
     "lat": 13.1939,
     "lng": -59.5432,
     "neighbors": [],
@@ -319,6 +334,7 @@ export const countriesData = [
     "code": "by",
     "continent": "Europe",
     "capital": "Minsk",
+    "language": "Belarusian, Russian",
     "lat": 53.7098,
     "lng": 27.9534,
     "neighbors": [
@@ -342,6 +358,7 @@ export const countriesData = [
     "code": "be",
     "continent": "Europe",
     "capital": "Brussels",
+    "language": "Dutch, French, German",
     "lat": 50.5039,
     "lng": 4.4699,
     "neighbors": [
@@ -364,6 +381,7 @@ export const countriesData = [
     "code": "bz",
     "continent": "North America",
     "capital": "Belmopan",
+    "language": "English",
     "lat": 17.1899,
     "lng": -88.4976,
     "neighbors": [
@@ -384,6 +402,7 @@ export const countriesData = [
     "code": "bj",
     "continent": "Africa",
     "capital": "Porto-Novo",
+    "language": "French",
     "lat": 9.3077,
     "lng": 2.3158,
     "neighbors": [
@@ -406,6 +425,7 @@ export const countriesData = [
     "code": "bt",
     "continent": "Asia",
     "capital": "Thimphu",
+    "language": "Dzongkha",
     "lat": 27.5142,
     "lng": 90.4336,
     "neighbors": [
@@ -426,6 +446,7 @@ export const countriesData = [
     "code": "bo",
     "continent": "South America",
     "capital": "Sucre",
+    "language": "Spanish, Quechua",
     "lat": -16.2902,
     "lng": -63.5887,
     "neighbors": [
@@ -449,6 +470,7 @@ export const countriesData = [
     "code": "ba",
     "continent": "Europe",
     "capital": "Sarajevo",
+    "language": "Bosnian, Croatian, Serbian",
     "lat": 43.9159,
     "lng": 17.6791,
     "neighbors": [
@@ -470,6 +492,7 @@ export const countriesData = [
     "code": "bw",
     "continent": "Africa",
     "capital": "Gaborone",
+    "language": "English, Setswana",
     "lat": -22.3285,
     "lng": 24.6849,
     "neighbors": [
@@ -492,6 +515,7 @@ export const countriesData = [
     "code": "br",
     "continent": "South America",
     "capital": "Brasilia",
+    "language": "Portuguese",
     "lat": -14.235,
     "lng": -51.9253,
     "neighbors": [
@@ -519,6 +543,7 @@ export const countriesData = [
     "code": "bn",
     "continent": "Asia",
     "capital": "Bandar Seri Begawan",
+    "language": "Malay",
     "lat": 4.5353,
     "lng": 114.7277,
     "neighbors": [
@@ -538,6 +563,7 @@ export const countriesData = [
     "code": "bg",
     "continent": "Europe",
     "capital": "Sofia",
+    "language": "Bulgarian",
     "lat": 42.7339,
     "lng": 25.4858,
     "neighbors": [
@@ -561,6 +587,7 @@ export const countriesData = [
     "code": "bf",
     "continent": "Africa",
     "capital": "Ouagadougou",
+    "language": "French",
     "lat": 12.2383,
     "lng": -1.5616,
     "neighbors": [
@@ -585,6 +612,7 @@ export const countriesData = [
     "code": "bi",
     "continent": "Africa",
     "capital": "Gitega",
+    "language": "Kirundi, French, English",
     "lat": -3.3731,
     "lng": 29.9189,
     "neighbors": [
@@ -606,6 +634,7 @@ export const countriesData = [
     "code": "cv",
     "continent": "Africa",
     "capital": "Praia",
+    "language": "Portuguese",
     "lat": 16.0021,
     "lng": -24.0132,
     "neighbors": [],
@@ -623,6 +652,7 @@ export const countriesData = [
     "code": "kh",
     "continent": "Asia",
     "capital": "Phnom Penh",
+    "language": "Khmer",
     "lat": 12.5657,
     "lng": 104.991,
     "neighbors": [
@@ -644,6 +674,7 @@ export const countriesData = [
     "code": "cm",
     "continent": "Africa",
     "capital": "Yaounde",
+    "language": "English, French",
     "lat": 7.3697,
     "lng": 12.3547,
     "neighbors": [
@@ -668,6 +699,7 @@ export const countriesData = [
     "code": "ca",
     "continent": "North America",
     "capital": "Ottawa",
+    "language": "English, French",
     "lat": 56.1304,
     "lng": -106.3468,
     "neighbors": [
@@ -687,6 +719,7 @@ export const countriesData = [
     "code": "cf",
     "continent": "Africa",
     "capital": "Bangui",
+    "language": "Sango, French",
     "lat": 6.6111,
     "lng": 20.9394,
     "neighbors": [
@@ -711,6 +744,7 @@ export const countriesData = [
     "code": "td",
     "continent": "Africa",
     "capital": "N'Djamena",
+    "language": "Arabic, French",
     "lat": 15.4542,
     "lng": 18.7322,
     "neighbors": [
@@ -735,6 +769,7 @@ export const countriesData = [
     "code": "cl",
     "continent": "South America",
     "capital": "Santiago",
+    "language": "Spanish",
     "lat": -35.6751,
     "lng": -71.543,
     "neighbors": [
@@ -756,6 +791,7 @@ export const countriesData = [
     "code": "cn",
     "continent": "Asia",
     "capital": "Beijing",
+    "language": "Mandarin",
     "lat": 35.8617,
     "lng": 104.1954,
     "neighbors": [
@@ -788,6 +824,7 @@ export const countriesData = [
     "code": "co",
     "continent": "South America",
     "capital": "Bogota",
+    "language": "Spanish",
     "lat": 4.5709,
     "lng": -74.2973,
     "neighbors": [
@@ -811,6 +848,7 @@ export const countriesData = [
     "code": "km",
     "continent": "Africa",
     "capital": "Moroni",
+    "language": "Comorian, Arabic, French",
     "lat": -11.875,
     "lng": 43.8722,
     "neighbors": [],
@@ -828,6 +866,7 @@ export const countriesData = [
     "code": "cg",
     "continent": "Africa",
     "capital": "Brazzaville",
+    "language": "French",
     "lat": -0.228,
     "lng": 15.8277,
     "neighbors": [
@@ -851,6 +890,7 @@ export const countriesData = [
     "code": "cr",
     "continent": "North America",
     "capital": "San Jose",
+    "language": "Spanish",
     "lat": 9.7489,
     "lng": -83.7534,
     "neighbors": [
@@ -871,6 +911,7 @@ export const countriesData = [
     "code": "hr",
     "continent": "Europe",
     "capital": "Zagreb",
+    "language": "Croatian",
     "lat": 45.1,
     "lng": 15.2,
     "neighbors": [
@@ -894,6 +935,7 @@ export const countriesData = [
     "code": "cu",
     "continent": "North America",
     "capital": "Havana",
+    "language": "Spanish",
     "lat": 21.5218,
     "lng": -77.7812,
     "neighbors": [],
@@ -911,6 +953,7 @@ export const countriesData = [
     "code": "cy",
     "continent": "Asia",
     "capital": "Nicosia",
+    "language": "Greek, Turkish",
     "lat": 35.1264,
     "lng": 33.4299,
     "neighbors": [],
@@ -928,6 +971,7 @@ export const countriesData = [
     "code": "cz",
     "continent": "Europe",
     "capital": "Prague",
+    "language": "Czech",
     "lat": 49.8175,
     "lng": 15.473,
     "neighbors": [
@@ -950,6 +994,7 @@ export const countriesData = [
     "code": "cd",
     "continent": "Africa",
     "capital": "Kinshasa",
+    "language": "French",
     "lat": -4.0383,
     "lng": 21.7587,
     "neighbors": [
@@ -977,6 +1022,7 @@ export const countriesData = [
     "code": "dk",
     "continent": "Europe",
     "capital": "Copenhagen",
+    "language": "Danish",
     "lat": 56.2639,
     "lng": 9.5018,
     "neighbors": [
@@ -996,6 +1042,7 @@ export const countriesData = [
     "code": "dj",
     "continent": "Africa",
     "capital": "Djibouti",
+    "language": "Arabic, French",
     "lat": 11.8251,
     "lng": 42.5903,
     "neighbors": [
@@ -1017,6 +1064,7 @@ export const countriesData = [
     "code": "dm",
     "continent": "North America",
     "capital": "Roseau",
+    "language": "English",
     "lat": 15.415,
     "lng": -61.371,
     "neighbors": [],
@@ -1034,6 +1082,7 @@ export const countriesData = [
     "code": "do",
     "continent": "North America",
     "capital": "Santo Domingo",
+    "language": "Spanish",
     "lat": 18.7357,
     "lng": -70.1627,
     "neighbors": [
@@ -1053,6 +1102,7 @@ export const countriesData = [
     "code": "ec",
     "continent": "South America",
     "capital": "Quito",
+    "language": "Spanish",
     "lat": -1.8312,
     "lng": -78.1834,
     "neighbors": [
@@ -1073,6 +1123,7 @@ export const countriesData = [
     "code": "eg",
     "continent": "Africa",
     "capital": "Cairo",
+    "language": "Arabic",
     "lat": 26.8206,
     "lng": 30.8025,
     "neighbors": [
@@ -1094,6 +1145,7 @@ export const countriesData = [
     "code": "sv",
     "continent": "North America",
     "capital": "San Salvador",
+    "language": "Spanish",
     "lat": 13.7942,
     "lng": -88.8965,
     "neighbors": [
@@ -1114,6 +1166,7 @@ export const countriesData = [
     "code": "gq",
     "continent": "Africa",
     "capital": "Malabo",
+    "language": "Spanish, French, Portuguese",
     "lat": 1.6508,
     "lng": 10.2679,
     "neighbors": [
@@ -1134,6 +1187,7 @@ export const countriesData = [
     "code": "er",
     "continent": "Africa",
     "capital": "Asmara",
+    "language": "Tigrinya, Arabic, English",
     "lat": 15.1794,
     "lng": 39.7823,
     "neighbors": [
@@ -1155,6 +1209,7 @@ export const countriesData = [
     "code": "ee",
     "continent": "Europe",
     "capital": "Tallinn",
+    "language": "Estonian",
     "lat": 58.5953,
     "lng": 25.0136,
     "neighbors": [
@@ -1175,6 +1230,7 @@ export const countriesData = [
     "code": "sz",
     "continent": "Africa",
     "capital": "Mbabane",
+    "language": "Swazi, English",
     "lat": -26.5225,
     "lng": 31.4659,
     "neighbors": [
@@ -1195,6 +1251,7 @@ export const countriesData = [
     "code": "et",
     "continent": "Africa",
     "capital": "Addis Ababa",
+    "language": "Amharic",
     "lat": 9.145,
     "lng": 40.4897,
     "neighbors": [
@@ -1219,6 +1276,7 @@ export const countriesData = [
     "code": "fj",
     "continent": "Oceania",
     "capital": "Suva",
+    "language": "English, Fijian",
     "lat": -17.7134,
     "lng": 178.065,
     "neighbors": [],
@@ -1236,6 +1294,7 @@ export const countriesData = [
     "code": "fi",
     "continent": "Europe",
     "capital": "Helsinki",
+    "language": "Finnish, Swedish",
     "lat": 61.9241,
     "lng": 25.7482,
     "neighbors": [
@@ -1257,6 +1316,7 @@ export const countriesData = [
     "code": "fr",
     "continent": "Europe",
     "capital": "Paris",
+    "language": "French",
     "lat": 46.2276,
     "lng": 2.2137,
     "neighbors": [
@@ -1283,6 +1343,7 @@ export const countriesData = [
     "code": "ga",
     "continent": "Africa",
     "capital": "Libreville",
+    "language": "French",
     "lat": -0.8037,
     "lng": 11.6094,
     "neighbors": [
@@ -1304,6 +1365,7 @@ export const countriesData = [
     "code": "gm",
     "continent": "Africa",
     "capital": "Banjul",
+    "language": "English",
     "lat": 13.4432,
     "lng": -15.3101,
     "neighbors": [
@@ -1323,6 +1385,7 @@ export const countriesData = [
     "code": "ge",
     "continent": "Asia",
     "capital": "Tbilisi",
+    "language": "Georgian",
     "lat": 42.3154,
     "lng": 43.3569,
     "neighbors": [
@@ -1345,6 +1408,7 @@ export const countriesData = [
     "code": "de",
     "continent": "Europe",
     "capital": "Berlin",
+    "language": "German",
     "lat": 51.1657,
     "lng": 10.4515,
     "neighbors": [
@@ -1372,6 +1436,7 @@ export const countriesData = [
     "code": "gh",
     "continent": "Africa",
     "capital": "Accra",
+    "language": "English",
     "lat": 7.9465,
     "lng": -1.0232,
     "neighbors": [
@@ -1393,6 +1458,7 @@ export const countriesData = [
     "code": "gr",
     "continent": "Europe",
     "capital": "Athens",
+    "language": "Greek",
     "lat": 39.0742,
     "lng": 21.8243,
     "neighbors": [
@@ -1415,6 +1481,7 @@ export const countriesData = [
     "code": "gd",
     "continent": "North America",
     "capital": "Saint George's",
+    "language": "English",
     "lat": 12.1165,
     "lng": -61.679,
     "neighbors": [],
@@ -1432,6 +1499,7 @@ export const countriesData = [
     "code": "gt",
     "continent": "North America",
     "capital": "Guatemala City",
+    "language": "Spanish",
     "lat": 15.7835,
     "lng": -90.2308,
     "neighbors": [
@@ -1454,6 +1522,7 @@ export const countriesData = [
     "code": "gn",
     "continent": "Africa",
     "capital": "Conakry",
+    "language": "French",
     "lat": 9.9456,
     "lng": -9.6966,
     "neighbors": [
@@ -1478,6 +1547,7 @@ export const countriesData = [
     "code": "gw",
     "continent": "Africa",
     "capital": "Bissau",
+    "language": "Portuguese",
     "lat": 11.8037,
     "lng": -15.1804,
     "neighbors": [
@@ -1498,6 +1568,7 @@ export const countriesData = [
     "code": "gy",
     "continent": "South America",
     "capital": "Georgetown",
+    "language": "English",
     "lat": 4.8604,
     "lng": -58.9302,
     "neighbors": [
@@ -1519,6 +1590,7 @@ export const countriesData = [
     "code": "ht",
     "continent": "North America",
     "capital": "Port-au-Prince",
+    "language": "Haitian Creole, French",
     "lat": 18.9712,
     "lng": -72.2852,
     "neighbors": [
@@ -1538,6 +1610,7 @@ export const countriesData = [
     "code": "hn",
     "continent": "North America",
     "capital": "Tegucigalpa",
+    "language": "Spanish",
     "lat": 15.1999,
     "lng": -86.2419,
     "neighbors": [
@@ -1559,6 +1632,7 @@ export const countriesData = [
     "code": "hu",
     "continent": "Europe",
     "capital": "Budapest",
+    "language": "Hungarian",
     "lat": 47.1625,
     "lng": 19.5033,
     "neighbors": [
@@ -1584,6 +1658,7 @@ export const countriesData = [
     "code": "is",
     "continent": "Europe",
     "capital": "Reykjavik",
+    "language": "Icelandic",
     "lat": 64.9631,
     "lng": -19.0208,
     "neighbors": [],
@@ -1601,6 +1676,7 @@ export const countriesData = [
     "code": "in",
     "continent": "Asia",
     "capital": "New Delhi",
+    "language": "Hindi, English",
     "lat": 20.5937,
     "lng": 78.9629,
     "neighbors": [
@@ -1625,6 +1701,7 @@ export const countriesData = [
     "code": "id",
     "continent": "Asia",
     "capital": "Jakarta",
+    "language": "Indonesian",
     "lat": -0.7893,
     "lng": 113.9213,
     "neighbors": [
@@ -1646,6 +1723,7 @@ export const countriesData = [
     "code": "ir",
     "continent": "Asia",
     "capital": "Tehran",
+    "language": "Persian",
     "lat": 32.4279,
     "lng": 53.688,
     "neighbors": [
@@ -1671,6 +1749,7 @@ export const countriesData = [
     "code": "iq",
     "continent": "Asia",
     "capital": "Baghdad",
+    "language": "Arabic, Kurdish",
     "lat": 33.2232,
     "lng": 43.6793,
     "neighbors": [
@@ -1695,6 +1774,7 @@ export const countriesData = [
     "code": "ie",
     "continent": "Europe",
     "capital": "Dublin",
+    "language": "Irish, English",
     "lat": 53.4129,
     "lng": -8.2439,
     "neighbors": [
@@ -1714,6 +1794,7 @@ export const countriesData = [
     "code": "il",
     "continent": "Asia",
     "capital": "Jerusalem",
+    "language": "Hebrew, Arabic",
     "lat": 31.0461,
     "lng": 34.8516,
     "neighbors": [
@@ -1736,6 +1817,7 @@ export const countriesData = [
     "code": "it",
     "continent": "Europe",
     "capital": "Rome",
+    "language": "Italian",
     "lat": 41.8719,
     "lng": 12.5674,
     "neighbors": [
@@ -1760,6 +1842,7 @@ export const countriesData = [
     "code": "jm",
     "continent": "North America",
     "capital": "Kingston",
+    "language": "English",
     "lat": 18.1096,
     "lng": -77.2975,
     "neighbors": [],
@@ -1777,6 +1860,7 @@ export const countriesData = [
     "code": "jp",
     "continent": "Asia",
     "capital": "Tokyo",
+    "language": "Japanese",
     "lat": 36.2048,
     "lng": 138.2529,
     "neighbors": [],
@@ -1794,6 +1878,7 @@ export const countriesData = [
     "code": "jo",
     "continent": "Asia",
     "capital": "Amman",
+    "language": "Arabic",
     "lat": 30.5852,
     "lng": 36.2384,
     "neighbors": [
@@ -1816,6 +1901,7 @@ export const countriesData = [
     "code": "kz",
     "continent": "Asia",
     "capital": "Astana",
+    "language": "Kazakh, Russian",
     "lat": 48.0196,
     "lng": 66.9237,
     "neighbors": [
@@ -1839,6 +1925,7 @@ export const countriesData = [
     "code": "ke",
     "continent": "Africa",
     "capital": "Nairobi",
+    "language": "Swahili, English",
     "lat": -0.0236,
     "lng": 37.9062,
     "neighbors": [
@@ -1862,6 +1949,7 @@ export const countriesData = [
     "code": "ki",
     "continent": "Oceania",
     "capital": "South Tarawa",
+    "language": "Gilbertese, English",
     "lat": -3.3704,
     "lng": -168.734,
     "neighbors": [],
@@ -1879,6 +1967,7 @@ export const countriesData = [
     "code": "kw",
     "continent": "Asia",
     "capital": "Kuwait City",
+    "language": "Arabic",
     "lat": 29.3759,
     "lng": 47.9774,
     "neighbors": [
@@ -1899,6 +1988,7 @@ export const countriesData = [
     "code": "kg",
     "continent": "Asia",
     "capital": "Bishkek",
+    "language": "Kyrgyz, Russian",
     "lat": 41.2044,
     "lng": 74.7661,
     "neighbors": [
@@ -1921,6 +2011,7 @@ export const countriesData = [
     "code": "la",
     "continent": "Asia",
     "capital": "Vientiane",
+    "language": "Lao",
     "lat": 19.8563,
     "lng": 102.4955,
     "neighbors": [
@@ -1944,6 +2035,7 @@ export const countriesData = [
     "code": "lv",
     "continent": "Europe",
     "capital": "Riga",
+    "language": "Latvian",
     "lat": 56.8796,
     "lng": 24.6032,
     "neighbors": [
@@ -1966,6 +2058,7 @@ export const countriesData = [
     "code": "lb",
     "continent": "Asia",
     "capital": "Beirut",
+    "language": "Arabic, French",
     "lat": 33.8547,
     "lng": 35.8623,
     "neighbors": [
@@ -1986,6 +2079,7 @@ export const countriesData = [
     "code": "ls",
     "continent": "Africa",
     "capital": "Maseru",
+    "language": "Sesotho, English",
     "lat": -29.6099,
     "lng": 28.2336,
     "neighbors": [
@@ -2005,6 +2099,7 @@ export const countriesData = [
     "code": "lr",
     "continent": "Africa",
     "capital": "Monrovia",
+    "language": "English",
     "lat": 6.4281,
     "lng": -9.4295,
     "neighbors": [
@@ -2026,6 +2121,7 @@ export const countriesData = [
     "code": "ly",
     "continent": "Africa",
     "capital": "Tripoli",
+    "language": "Arabic",
     "lat": 26.3351,
     "lng": 17.2283,
     "neighbors": [
@@ -2050,6 +2146,7 @@ export const countriesData = [
     "code": "li",
     "continent": "Europe",
     "capital": "Vaduz",
+    "language": "German",
     "lat": 47.166,
     "lng": 9.5554,
     "neighbors": [
@@ -2070,6 +2167,7 @@ export const countriesData = [
     "code": "lt",
     "continent": "Europe",
     "capital": "Vilnius",
+    "language": "Lithuanian",
     "lat": 55.1694,
     "lng": 23.8813,
     "neighbors": [
@@ -2092,6 +2190,7 @@ export const countriesData = [
     "code": "lu",
     "continent": "Europe",
     "capital": "Luxembourg City",
+    "language": "Luxembourgish, French",
     "lat": 49.8153,
     "lng": 6.1296,
     "neighbors": [
@@ -2113,6 +2212,7 @@ export const countriesData = [
     "code": "mg",
     "continent": "Africa",
     "capital": "Antananarivo",
+    "language": "Malagasy, French",
     "lat": -18.7669,
     "lng": 46.8691,
     "neighbors": [],
@@ -2130,6 +2230,7 @@ export const countriesData = [
     "code": "mw",
     "continent": "Africa",
     "capital": "Lilongwe",
+    "language": "Chichewa, English",
     "lat": -13.2543,
     "lng": 34.3015,
     "neighbors": [
@@ -2151,6 +2252,7 @@ export const countriesData = [
     "code": "my",
     "continent": "Asia",
     "capital": "Kuala Lumpur",
+    "language": "Malay",
     "lat": 4.2105,
     "lng": 101.9758,
     "neighbors": [
@@ -2172,6 +2274,7 @@ export const countriesData = [
     "code": "mv",
     "continent": "Asia",
     "capital": "Male",
+    "language": "Dhivehi",
     "lat": 3.2028,
     "lng": 73.2207,
     "neighbors": [],
@@ -2189,6 +2292,7 @@ export const countriesData = [
     "code": "ml",
     "continent": "Africa",
     "capital": "Bamako",
+    "language": "French",
     "lat": 17.5707,
     "lng": -3.9962,
     "neighbors": [
@@ -2214,6 +2318,7 @@ export const countriesData = [
     "code": "mt",
     "continent": "Europe",
     "capital": "Valletta",
+    "language": "Maltese, English",
     "lat": 35.9375,
     "lng": 14.3754,
     "neighbors": [],
@@ -2231,6 +2336,7 @@ export const countriesData = [
     "code": "mh",
     "continent": "Oceania",
     "capital": "Majuro",
+    "language": "Marshallese, English",
     "lat": 7.1315,
     "lng": 171.1844,
     "neighbors": [],
@@ -2248,6 +2354,7 @@ export const countriesData = [
     "code": "mr",
     "continent": "Africa",
     "capital": "Nouakchott",
+    "language": "Arabic",
     "lat": 21.0079,
     "lng": -10.9408,
     "neighbors": [
@@ -2270,6 +2377,7 @@ export const countriesData = [
     "code": "mu",
     "continent": "Africa",
     "capital": "Port Louis",
+    "language": "English, French",
     "lat": -20.3484,
     "lng": 57.5522,
     "neighbors": [],
@@ -2287,6 +2395,7 @@ export const countriesData = [
     "code": "mx",
     "continent": "North America",
     "capital": "Mexico City",
+    "language": "Spanish",
     "lat": 23.6345,
     "lng": -102.5528,
     "neighbors": [
@@ -2308,6 +2417,7 @@ export const countriesData = [
     "code": "fm",
     "continent": "Oceania",
     "capital": "Palikir",
+    "language": "English",
     "lat": 7.4256,
     "lng": 150.5508,
     "neighbors": [],
@@ -2325,6 +2435,7 @@ export const countriesData = [
     "code": "md",
     "continent": "Europe",
     "capital": "Chisinau",
+    "language": "Romanian",
     "lat": 47.4116,
     "lng": 28.3699,
     "neighbors": [
@@ -2345,6 +2456,7 @@ export const countriesData = [
     "code": "mc",
     "continent": "Europe",
     "capital": "Monaco",
+    "language": "French",
     "lat": 43.7384,
     "lng": 7.4246,
     "neighbors": [
@@ -2364,6 +2476,7 @@ export const countriesData = [
     "code": "mn",
     "continent": "Asia",
     "capital": "Ulaanbaatar",
+    "language": "Mongolian",
     "lat": 46.8625,
     "lng": 103.8467,
     "neighbors": [
@@ -2384,6 +2497,7 @@ export const countriesData = [
     "code": "me",
     "continent": "Europe",
     "capital": "Podgorica",
+    "language": "Montenegrin",
     "lat": 42.7087,
     "lng": 19.3744,
     "neighbors": [
@@ -2407,6 +2521,7 @@ export const countriesData = [
     "code": "ma",
     "continent": "Africa",
     "capital": "Rabat",
+    "language": "Arabic, Berber",
     "lat": 31.7917,
     "lng": -7.0926,
     "neighbors": [
@@ -2428,6 +2543,7 @@ export const countriesData = [
     "code": "mz",
     "continent": "Africa",
     "capital": "Maputo",
+    "language": "Portuguese",
     "lat": -18.6657,
     "lng": 35.5296,
     "neighbors": [
@@ -2452,6 +2568,7 @@ export const countriesData = [
     "code": "mm",
     "continent": "Asia",
     "capital": "Naypyidaw",
+    "language": "Burmese",
     "lat": 21.9162,
     "lng": 95.956,
     "neighbors": [
@@ -2475,6 +2592,7 @@ export const countriesData = [
     "code": "na",
     "continent": "Africa",
     "capital": "Windhoek",
+    "language": "English",
     "lat": -22.9576,
     "lng": 18.4904,
     "neighbors": [
@@ -2497,6 +2615,7 @@ export const countriesData = [
     "code": "nr",
     "continent": "Oceania",
     "capital": "Yaren",
+    "language": "Nauruan, English",
     "lat": -0.5228,
     "lng": 166.9315,
     "neighbors": [],
@@ -2514,6 +2633,7 @@ export const countriesData = [
     "code": "np",
     "continent": "Asia",
     "capital": "Kathmandu",
+    "language": "Nepali",
     "lat": 28.3949,
     "lng": 84.124,
     "neighbors": [
@@ -2534,6 +2654,7 @@ export const countriesData = [
     "code": "nl",
     "continent": "Europe",
     "capital": "Amsterdam",
+    "language": "Dutch",
     "lat": 52.1326,
     "lng": 5.2913,
     "neighbors": [
@@ -2554,6 +2675,7 @@ export const countriesData = [
     "code": "nz",
     "continent": "Oceania",
     "capital": "Wellington",
+    "language": "English, Maori",
     "lat": -40.9006,
     "lng": 174.886,
     "neighbors": [],
@@ -2571,6 +2693,7 @@ export const countriesData = [
     "code": "ni",
     "continent": "North America",
     "capital": "Managua",
+    "language": "Spanish",
     "lat": 12.8654,
     "lng": -85.2072,
     "neighbors": [
@@ -2591,6 +2714,7 @@ export const countriesData = [
     "code": "ne",
     "continent": "Africa",
     "capital": "Niamey",
+    "language": "French",
     "lat": 17.6078,
     "lng": 8.0817,
     "neighbors": [
@@ -2616,6 +2740,7 @@ export const countriesData = [
     "code": "ng",
     "continent": "Africa",
     "capital": "Abuja",
+    "language": "English",
     "lat": 9.082,
     "lng": 8.6753,
     "neighbors": [
@@ -2638,6 +2763,7 @@ export const countriesData = [
     "code": "kp",
     "continent": "Asia",
     "capital": "Pyongyang",
+    "language": "Korean",
     "lat": 40.3399,
     "lng": 127.5101,
     "neighbors": [
@@ -2659,6 +2785,7 @@ export const countriesData = [
     "code": "mk",
     "continent": "Europe",
     "capital": "Skopje",
+    "language": "Macedonian",
     "lat": 41.6086,
     "lng": 21.7453,
     "neighbors": [
@@ -2682,6 +2809,7 @@ export const countriesData = [
     "code": "no",
     "continent": "Europe",
     "capital": "Oslo",
+    "language": "Norwegian",
     "lat": 60.472,
     "lng": 8.4689,
     "neighbors": [
@@ -2703,6 +2831,7 @@ export const countriesData = [
     "code": "om",
     "continent": "Asia",
     "capital": "Muscat",
+    "language": "Arabic",
     "lat": 21.5126,
     "lng": 55.9233,
     "neighbors": [
@@ -2724,6 +2853,7 @@ export const countriesData = [
     "code": "pk",
     "continent": "Asia",
     "capital": "Islamabad",
+    "language": "Urdu, English",
     "lat": 30.3753,
     "lng": 69.3451,
     "neighbors": [
@@ -2746,6 +2876,7 @@ export const countriesData = [
     "code": "pw",
     "continent": "Oceania",
     "capital": "Ngerulmud",
+    "language": "Palauan, English",
     "lat": 7.515,
     "lng": 134.5825,
     "neighbors": [],
@@ -2763,6 +2894,7 @@ export const countriesData = [
     "code": "pa",
     "continent": "North America",
     "capital": "Panama City",
+    "language": "Spanish",
     "lat": 8.538,
     "lng": -80.7821,
     "neighbors": [
@@ -2783,6 +2915,7 @@ export const countriesData = [
     "code": "pg",
     "continent": "Oceania",
     "capital": "Port Moresby",
+    "language": "English, Tok Pisin",
     "lat": -6.315,
     "lng": 143.9555,
     "neighbors": [
@@ -2802,6 +2935,7 @@ export const countriesData = [
     "code": "py",
     "continent": "South America",
     "capital": "Asuncion",
+    "language": "Spanish, Guarani",
     "lat": -23.4425,
     "lng": -58.4438,
     "neighbors": [
@@ -2823,6 +2957,7 @@ export const countriesData = [
     "code": "pe",
     "continent": "South America",
     "capital": "Lima",
+    "language": "Spanish, Quechua",
     "lat": -9.19,
     "lng": -75.0152,
     "neighbors": [
@@ -2846,6 +2981,7 @@ export const countriesData = [
     "code": "ph",
     "continent": "Asia",
     "capital": "Manila",
+    "language": "Filipino, English",
     "lat": 12.8797,
     "lng": 121.774,
     "neighbors": [],
@@ -2863,6 +2999,7 @@ export const countriesData = [
     "code": "pl",
     "continent": "Europe",
     "capital": "Warsaw",
+    "language": "Polish",
     "lat": 51.9194,
     "lng": 19.1451,
     "neighbors": [
@@ -2888,6 +3025,7 @@ export const countriesData = [
     "code": "pt",
     "continent": "Europe",
     "capital": "Lisbon",
+    "language": "Portuguese",
     "lat": 39.3999,
     "lng": -8.2245,
     "neighbors": [
@@ -2907,6 +3045,7 @@ export const countriesData = [
     "code": "qa",
     "continent": "Asia",
     "capital": "Doha",
+    "language": "Arabic",
     "lat": 25.3548,
     "lng": 51.1839,
     "neighbors": [
@@ -2926,6 +3065,7 @@ export const countriesData = [
     "code": "ro",
     "continent": "Europe",
     "capital": "Bucharest",
+    "language": "Romanian",
     "lat": 45.9432,
     "lng": 24.9668,
     "neighbors": [
@@ -2949,6 +3089,7 @@ export const countriesData = [
     "code": "ru",
     "continent": "Europe",
     "capital": "Moscow",
+    "language": "Russian",
     "lat": 61.524,
     "lng": 105.3188,
     "neighbors": [
@@ -2981,6 +3122,7 @@ export const countriesData = [
     "code": "rw",
     "continent": "Africa",
     "capital": "Kigali",
+    "language": "Kinyarwanda, French, English",
     "lat": -1.9403,
     "lng": 29.8739,
     "neighbors": [
@@ -3003,6 +3145,7 @@ export const countriesData = [
     "code": "kn",
     "continent": "North America",
     "capital": "Basseterre",
+    "language": "English",
     "lat": 17.3578,
     "lng": -62.783,
     "neighbors": [],
@@ -3020,6 +3163,7 @@ export const countriesData = [
     "code": "lc",
     "continent": "North America",
     "capital": "Castries",
+    "language": "English",
     "lat": 13.9094,
     "lng": -60.9789,
     "neighbors": [],
@@ -3037,6 +3181,7 @@ export const countriesData = [
     "code": "vc",
     "continent": "North America",
     "capital": "Kingstown",
+    "language": "English",
     "lat": 12.9843,
     "lng": -61.2872,
     "neighbors": [],
@@ -3054,6 +3199,7 @@ export const countriesData = [
     "code": "ws",
     "continent": "Oceania",
     "capital": "Apia",
+    "language": "Samoan, English",
     "lat": -13.759,
     "lng": -172.1046,
     "neighbors": [],
@@ -3071,6 +3217,7 @@ export const countriesData = [
     "code": "sm",
     "continent": "Europe",
     "capital": "San Marino",
+    "language": "Italian",
     "lat": 43.9424,
     "lng": 12.4578,
     "neighbors": [
@@ -3090,6 +3237,7 @@ export const countriesData = [
     "code": "st",
     "continent": "Africa",
     "capital": "Sao Tome",
+    "language": "Portuguese",
     "lat": 0.1864,
     "lng": 6.6131,
     "neighbors": [],
@@ -3107,6 +3255,7 @@ export const countriesData = [
     "code": "sa",
     "continent": "Asia",
     "capital": "Riyadh",
+    "language": "Arabic",
     "lat": 23.8859,
     "lng": 45.0792,
     "neighbors": [
@@ -3132,6 +3281,7 @@ export const countriesData = [
     "code": "sn",
     "continent": "Africa",
     "capital": "Dakar",
+    "language": "French",
     "lat": 14.4974,
     "lng": -14.4524,
     "neighbors": [
@@ -3155,6 +3305,7 @@ export const countriesData = [
     "code": "rs",
     "continent": "Europe",
     "capital": "Belgrade",
+    "language": "Serbian",
     "lat": 44.0165,
     "lng": 21.0059,
     "neighbors": [
@@ -3181,6 +3332,7 @@ export const countriesData = [
     "code": "sc",
     "continent": "Africa",
     "capital": "Victoria",
+    "language": "Seychellois Creole, English",
     "lat": -4.6796,
     "lng": 55.492,
     "neighbors": [],
@@ -3198,6 +3350,7 @@ export const countriesData = [
     "code": "sl",
     "continent": "Africa",
     "capital": "Freetown",
+    "language": "English",
     "lat": 8.4606,
     "lng": -11.7799,
     "neighbors": [
@@ -3218,6 +3371,7 @@ export const countriesData = [
     "code": "sg",
     "continent": "Asia",
     "capital": "Singapore",
+    "language": "English, Mandarin, Malay",
     "lat": 1.3521,
     "lng": 103.8198,
     "neighbors": [],
@@ -3235,6 +3389,7 @@ export const countriesData = [
     "code": "sk",
     "continent": "Europe",
     "capital": "Bratislava",
+    "language": "Slovak",
     "lat": 48.669,
     "lng": 19.699,
     "neighbors": [
@@ -3258,6 +3413,7 @@ export const countriesData = [
     "code": "si",
     "continent": "Europe",
     "capital": "Ljubljana",
+    "language": "Slovenian",
     "lat": 46.1512,
     "lng": 14.9955,
     "neighbors": [
@@ -3280,6 +3436,7 @@ export const countriesData = [
     "code": "sb",
     "continent": "Oceania",
     "capital": "Honiara",
+    "language": "English",
     "lat": -9.6457,
     "lng": 160.1562,
     "neighbors": [],
@@ -3297,6 +3454,7 @@ export const countriesData = [
     "code": "so",
     "continent": "Africa",
     "capital": "Mogadishu",
+    "language": "Somali, Arabic",
     "lat": 5.1521,
     "lng": 46.1996,
     "neighbors": [
@@ -3318,6 +3476,7 @@ export const countriesData = [
     "code": "za",
     "continent": "Africa",
     "capital": "Pretoria",
+    "language": "Zulu, Xhosa, English, Afrikaans",
     "lat": -30.5595,
     "lng": 22.9375,
     "neighbors": [
@@ -3342,6 +3501,7 @@ export const countriesData = [
     "code": "kr",
     "continent": "Asia",
     "capital": "Seoul",
+    "language": "Korean",
     "lat": 35.9078,
     "lng": 127.7669,
     "neighbors": [
@@ -3361,6 +3521,7 @@ export const countriesData = [
     "code": "ss",
     "continent": "Africa",
     "capital": "Juba",
+    "language": "English",
     "lat": 6.877,
     "lng": 31.307,
     "neighbors": [
@@ -3385,6 +3546,7 @@ export const countriesData = [
     "code": "es",
     "continent": "Europe",
     "capital": "Madrid",
+    "language": "Spanish",
     "lat": 40.4637,
     "lng": -3.7492,
     "neighbors": [
@@ -3407,6 +3569,7 @@ export const countriesData = [
     "code": "lk",
     "continent": "Asia",
     "capital": "Sri Jayawardenepura Kotte",
+    "language": "Sinhala, Tamil",
     "lat": 7.8731,
     "lng": 80.7718,
     "neighbors": [],
@@ -3424,6 +3587,7 @@ export const countriesData = [
     "code": "sd",
     "continent": "Africa",
     "capital": "Khartoum",
+    "language": "Arabic, English",
     "lat": 12.8628,
     "lng": 30.2176,
     "neighbors": [
@@ -3449,6 +3613,7 @@ export const countriesData = [
     "code": "sr",
     "continent": "South America",
     "capital": "Paramaribo",
+    "language": "Dutch",
     "lat": 3.9193,
     "lng": -56.0278,
     "neighbors": [
@@ -3470,6 +3635,7 @@ export const countriesData = [
     "code": "se",
     "continent": "Europe",
     "capital": "Stockholm",
+    "language": "Swedish",
     "lat": 60.1282,
     "lng": 18.6435,
     "neighbors": [
@@ -3490,6 +3656,7 @@ export const countriesData = [
     "code": "ch",
     "continent": "Europe",
     "capital": "Bern",
+    "language": "German, French, Italian",
     "lat": 46.8182,
     "lng": 8.2275,
     "neighbors": [
@@ -3513,6 +3680,7 @@ export const countriesData = [
     "code": "sy",
     "continent": "Asia",
     "capital": "Damascus",
+    "language": "Arabic",
     "lat": 34.8021,
     "lng": 38.9968,
     "neighbors": [
@@ -3536,6 +3704,7 @@ export const countriesData = [
     "code": "tw",
     "continent": "Asia",
     "capital": "Taipei",
+    "language": "Mandarin",
     "lat": 23.6978,
     "lng": 120.9605,
     "neighbors": [],
@@ -3553,6 +3722,7 @@ export const countriesData = [
     "code": "tj",
     "continent": "Asia",
     "capital": "Dushanbe",
+    "language": "Tajik",
     "lat": 38.861,
     "lng": 71.2761,
     "neighbors": [
@@ -3575,6 +3745,7 @@ export const countriesData = [
     "code": "tz",
     "continent": "Africa",
     "capital": "Dodoma",
+    "language": "Swahili, English",
     "lat": -6.369,
     "lng": 34.8888,
     "neighbors": [
@@ -3601,6 +3772,7 @@ export const countriesData = [
     "code": "th",
     "continent": "Asia",
     "capital": "Bangkok",
+    "language": "Thai",
     "lat": 15.87,
     "lng": 100.9925,
     "neighbors": [
@@ -3623,6 +3795,7 @@ export const countriesData = [
     "code": "tl",
     "continent": "Asia",
     "capital": "Dili",
+    "language": "Tetum, Portuguese",
     "lat": -8.8742,
     "lng": 125.7275,
     "neighbors": [
@@ -3642,6 +3815,7 @@ export const countriesData = [
     "code": "tg",
     "continent": "Africa",
     "capital": "Lome",
+    "language": "French",
     "lat": 8.6195,
     "lng": 0.8248,
     "neighbors": [
@@ -3663,6 +3837,7 @@ export const countriesData = [
     "code": "to",
     "continent": "Oceania",
     "capital": "Nuku'alofa",
+    "language": "Tongan, English",
     "lat": -21.1789,
     "lng": -175.1982,
     "neighbors": [],
@@ -3680,6 +3855,7 @@ export const countriesData = [
     "code": "tt",
     "continent": "North America",
     "capital": "Port of Spain",
+    "language": "English",
     "lat": 10.6918,
     "lng": -61.2225,
     "neighbors": [],
@@ -3697,6 +3873,7 @@ export const countriesData = [
     "code": "tn",
     "continent": "Africa",
     "capital": "Tunis",
+    "language": "Arabic",
     "lat": 33.8869,
     "lng": 9.5375,
     "neighbors": [
@@ -3717,6 +3894,7 @@ export const countriesData = [
     "code": "tr",
     "continent": "Asia",
     "capital": "Ankara",
+    "language": "Turkish",
     "lat": 38.9637,
     "lng": 35.2433,
     "neighbors": [
@@ -3743,6 +3921,7 @@ export const countriesData = [
     "code": "tm",
     "continent": "Asia",
     "capital": "Ashgabat",
+    "language": "Turkmen",
     "lat": 38.9697,
     "lng": 59.5563,
     "neighbors": [
@@ -3765,6 +3944,7 @@ export const countriesData = [
     "code": "tv",
     "continent": "Oceania",
     "capital": "Funafuti",
+    "language": "Tuvaluan, English",
     "lat": -7.1095,
     "lng": 177.6493,
     "neighbors": [],
@@ -3782,6 +3962,7 @@ export const countriesData = [
     "code": "ug",
     "continent": "Africa",
     "capital": "Kampala",
+    "language": "English, Swahili",
     "lat": 1.3733,
     "lng": 32.2903,
     "neighbors": [
@@ -3805,6 +3986,7 @@ export const countriesData = [
     "code": "ua",
     "continent": "Europe",
     "capital": "Kyiv",
+    "language": "Ukrainian",
     "lat": 48.3794,
     "lng": 31.1656,
     "neighbors": [
@@ -3830,6 +4012,7 @@ export const countriesData = [
     "code": "ae",
     "continent": "Asia",
     "capital": "Abu Dhabi",
+    "language": "Arabic",
     "lat": 23.4241,
     "lng": 53.8478,
     "neighbors": [
@@ -3850,6 +4033,7 @@ export const countriesData = [
     "code": "gb",
     "continent": "Europe",
     "capital": "London",
+    "language": "English",
     "lat": 55.3781,
     "lng": -3.436,
     "neighbors": [
@@ -3869,6 +4053,7 @@ export const countriesData = [
     "code": "us",
     "continent": "North America",
     "capital": "Washington, D.C.",
+    "language": "English",
     "lat": 37.0902,
     "lng": -95.7129,
     "neighbors": [
@@ -3889,6 +4074,7 @@ export const countriesData = [
     "code": "uy",
     "continent": "South America",
     "capital": "Montevideo",
+    "language": "Spanish",
     "lat": -32.5228,
     "lng": -55.7658,
     "neighbors": [
@@ -3909,6 +4095,7 @@ export const countriesData = [
     "code": "uz",
     "continent": "Asia",
     "capital": "Tashkent",
+    "language": "Uzbek",
     "lat": 41.3775,
     "lng": 64.5853,
     "neighbors": [
@@ -3932,6 +4119,7 @@ export const countriesData = [
     "code": "vu",
     "continent": "Oceania",
     "capital": "Port Vila",
+    "language": "Bislama, English, French",
     "lat": -15.3767,
     "lng": 166.9592,
     "neighbors": [],
@@ -3949,6 +4137,7 @@ export const countriesData = [
     "code": "va",
     "continent": "Europe",
     "capital": "Vatican City",
+    "language": "Italian, Latin",
     "lat": 41.9029,
     "lng": 12.4534,
     "neighbors": [
@@ -3968,6 +4157,7 @@ export const countriesData = [
     "code": "ve",
     "continent": "South America",
     "capital": "Caracas",
+    "language": "Spanish",
     "lat": 6.4238,
     "lng": -66.5897,
     "neighbors": [
@@ -3989,6 +4179,7 @@ export const countriesData = [
     "code": "vn",
     "continent": "Asia",
     "capital": "Hanoi",
+    "language": "Vietnamese",
     "lat": 14.0583,
     "lng": 108.2772,
     "neighbors": [
@@ -4010,6 +4201,7 @@ export const countriesData = [
     "code": "ye",
     "continent": "Asia",
     "capital": "Sana'a",
+    "language": "Arabic",
     "lat": 15.5527,
     "lng": 48.5164,
     "neighbors": [
@@ -4030,6 +4222,7 @@ export const countriesData = [
     "code": "zm",
     "continent": "Africa",
     "capital": "Lusaka",
+    "language": "English",
     "lat": -13.1339,
     "lng": 27.8493,
     "neighbors": [
@@ -4056,6 +4249,7 @@ export const countriesData = [
     "code": "zw",
     "continent": "Africa",
     "capital": "Harare",
+    "language": "English, Shona, Ndebele",
     "lat": -19.0154,
     "lng": 29.1549,
     "neighbors": [

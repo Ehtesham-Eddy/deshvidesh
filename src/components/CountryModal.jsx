@@ -9,7 +9,8 @@ import {
   Compass, 
   Bookmark, 
   PlusCircle, 
-  CheckCircle 
+  CheckCircle,
+  Languages
 } from 'lucide-react';
 
 export default function CountryModal({ 
@@ -25,7 +26,7 @@ export default function CountryModal({
 }) {
   if (!country) return null;
 
-  const { name, code, continent, capital, origin, attractions, fact, neighbors, lat, lng } = country;
+  const { name, code, continent, capital, language, origin, attractions, fact, neighbors, lat, lng } = country;
 
   // Banner & Flag CDN URLs
   const flagUrl = `https://flagcdn.com/w640/${code.toLowerCase()}.png`;
@@ -133,7 +134,7 @@ export default function CountryModal({
           <div className="modal-right-column">
             
             {/* Quick Stats */}
-            <div className="stats-grid">
+            <div className="stats-grid" style={{ gridTemplateColumns: '1fr', gap: '12px' }}>
               <div className="stat-item">
                 <div className="stat-icon">
                   <MapPin size={20} />
@@ -151,6 +152,16 @@ export default function CountryModal({
                 <div>
                   <div className="stat-label">Continent</div>
                   <div className="stat-value">{continent}</div>
+                </div>
+              </div>
+
+              <div className="stat-item">
+                <div className="stat-icon">
+                  <Languages size={20} />
+                </div>
+                <div>
+                  <div className="stat-label">Official Language(s)</div>
+                  <div className="stat-value">{language}</div>
                 </div>
               </div>
             </div>
