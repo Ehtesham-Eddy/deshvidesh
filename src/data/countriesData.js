@@ -4285,3 +4285,61 @@ export function getMapCoords(lat, lng) {
     y: Math.min(100, Math.max(0, y))
   };
 }
+
+// Estimate daily travel budget cost based on continent baselines and specific country multipliers
+export function estimateDailyCost(countryName, continentName, travelStyle) {
+  // Base daily costs per person in USD by continent groups
+  const baselines = {
+    expensive: { budget: 75, midrange: 160, luxury: 450 },
+    normal: { budget: 30, midrange: 75, luxury: 200 }
+  };
+
+  const isExpensiveContinent = ['Europe', 'North America', 'Oceania'].includes(continentName);
+  const base = isExpensiveContinent ? baselines.expensive : baselines.normal;
+  
+  let rate = base[travelStyle] || base.midrange;
+
+  // Custom multipliers for specific outlier countries (out of 194 countries)
+  const multipliers = {
+    // Expensive outliers
+    "Switzerland": 1.35,
+    "Norway": 1.3,
+    "Iceland": 1.3,
+    "Denmark": 1.25,
+    "Singapore": 1.25,
+    "United States": 1.2,
+    "United Kingdom": 1.2,
+    "Israel": 1.2,
+    "Japan": 1.15,
+    "Vatican City": 1.15,
+    "Monaco": 1.5,
+    "Liechtenstein": 1.3,
+    
+    // Budget outliers
+    "India": 0.75,
+    "Nepal": 0.7,
+    "Bhutan": 0.8,
+    "Bangladesh": 0.75,
+    "Pakistan": 0.7,
+    "Vietnam": 0.75,
+    "Cambodia": 0.75,
+    "Laos": 0.75,
+    "Thailand": 0.8,
+    "Indonesia": 0.8,
+    "Egypt": 0.8
+  };
+
+  if (multipliers[countryName]) {
+    rate = Math.round(rate * multipliers[countryName]);
+  }
+
+  // Cost splits: Accommodation (40%), Food & Drink (25%), Transport (15%), Activities (12%), Misc (8%)
+  return {
+    dailyTotal: rate,
+    accommodation: Math.round(rate * 0.40),
+    food: Math.round(rate * 0.25),
+    transport: Math.round(rate * 0.15),
+    activities: Math.round(rate * 0.12),
+    misc: Math.round(rate * 0.08)
+  };
+}

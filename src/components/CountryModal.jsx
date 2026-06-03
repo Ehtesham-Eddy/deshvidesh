@@ -22,7 +22,8 @@ export default function CountryModal({
   onSelectCountry, 
   user, 
   collections, 
-  onToggleCountryInCollection 
+  onToggleCountryInCollection,
+  onOpenBudgetCalculator
 }) {
   if (!country) return null;
 
@@ -174,6 +175,16 @@ export default function CountryModal({
             >
               <Heart size={18} fill={isFavorite ? "currentColor" : "none"} />
               {isFavorite ? 'Saved to Favorites' : 'Add to Favorites'}
+            </button>
+
+            {/* Budget Calculator Button */}
+            <button 
+              className="btn btn-accent"
+              onClick={() => onOpenBudgetCalculator(country)}
+              style={{ width: '100%', justifyContent: 'center', gap: '10px', height: '48px', marginTop: '8px' }}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-wallet"><path d="M19 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M19 7h-6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h6Z"/></svg>
+              Calculate Travel Budget
             </button>
 
             {/* Map Point Locator */}

@@ -26,7 +26,8 @@ export default function Dashboard({
   onRemoveFromCollection,
   onOpenAuth,
   onLogout,
-  onSelectCountry
+  onSelectCountry,
+  onOpenBudgetCalculator
 }) {
   const [newCollectionName, setNewCollectionName] = useState('');
 
@@ -118,6 +119,58 @@ export default function Dashboard({
                           <Trash2 size={14} />
                         </button>
                       </div>
+
+                      {/* Budget summary */}
+                      {col.budget ? (
+                        <div 
+                          onClick={() => {
+                            const cObj = allCountries.find(x => x.name.toLowerCase() === col.budget.countryName.toLowerCase());
+                            onOpenBudgetCalculator(cObj, col.id);
+                          }}
+                          style={{ 
+                            backgroundColor: 'var(--accent-light)', 
+                            color: 'var(--accent-primary)',
+                            padding: '8px 12px', 
+                            borderRadius: 'var(--radius-sm)', 
+                            fontSize: '12px',
+                            fontWeight: 600,
+                            margin: '8px 0',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            alignItems: 'center'
+                          }}
+                          title="Click to recalculate or edit budget"
+                        >
+                          <span>Budget: ${col.budget.totalCost.toLocaleString()}</span>
+                          <span style={{ fontSize: '11px', opacity: 0.8 }}>
+                            {col.budget.duration}d / {col.budget.travelers}p / ${col.budget.costPerPerson.toLocaleString()} ea
+                          </span>
+                        </div>
+                      ) : (
+                        col.countries.length > 0 && (
+                          <button
+                            className="btn btn-secondary"
+                            onClick={() => {
+                              // Open calculator with first country in collection
+                              const cObj = allCountries.find(x => x.name.toLowerCase() === col.countries[0].toLowerCase());
+                              onOpenBudgetCalculator(cObj, col.id);
+                            }}
+                            style={{ 
+                              width: '100%', 
+                              height: '32px', 
+                              fontSize: '11px', 
+                              padding: '0', 
+                              justifyContent: 'center',
+                              margin: '8px 0',
+                              gap: '4px'
+                            }}
+                          >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-wallet"><path d="M19 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M19 7h-6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h6Z"/></svg>
+                            Plan Trip Budget
+                          </button>
+                        )
+                      )}
 
                       {/* Items in Collection */}
                       {col.countries.length === 0 ? (

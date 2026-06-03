@@ -4,6 +4,7 @@ import CountryCard from './components/CountryCard';
 import CountryModal from './components/CountryModal';
 import AuthModal from './components/AuthModal';
 import Dashboard from './components/Dashboard';
+import BudgetCalculator from './components/BudgetCalculator';
 import { 
   Search, 
   Heart, 
@@ -35,6 +36,11 @@ function App() {
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [isDashboardOpen, setIsDashboardOpen] = useState(false);
   const [toasts, setToasts] = useState([]);
+
+  // Budget Planner UI States
+  const [isBudgetOpen, setIsBudgetOpen] = useState(false);
+  const [budgetCountry, setBudgetCountry] = useState(null);
+  const [budgetCollectionId, setBudgetCollectionId] = useState('');
 
   // Load user session and corresponding data on startup
   useEffect(() => {
@@ -201,6 +207,37 @@ function App() {
 
   const handleRemoveFromCollection = (collectionId, countryName) => {
     handleToggleCountryInCollection(collectionId, countryName);
+  };
+
+  const handleOpenBudgetCalculator = (countryObj, collectionId = '') => {
+    setBudgetCountry(countryObj);
+    setBudgetCollectionId(collectionId);
+    setIsBudgetOpen(true);
+  };
+
+  const handleSaveBudgetToCollection = (collectionId, budgetData) => {
+    const newCols = collections.map(col => {
+      if (col.id === collectionId) {
+        // If the country isn't in the collection's country list yet, add it automatically!
+        const updatedCountries = col.countries.includes(budgetData.countryName)
+          ? col.countries
+          : [...col.countries, budgetData.countryName];
+        
+        return { 
+          ...col, 
+          countries: updatedCountries,
+          budget: budgetData 
+        };
+      }
+      return col;
+    });
+
+    setCollections(newCols);
+    syncDataWithStorage(favorites, newCols);
+    
+    const colName = collections.find(c => c.id === collectionId)?.name || '';
+    showToast(`Budget saved to collection "${colName}"!`);
+    setIsBudgetOpen(false);
   };
 
   // Search & Filtering Logic
@@ -370,6 +407,7 @@ function App() {
           user={user}
           collections={collections}
           onToggleCountryInCollection={handleToggleCountryInCollection}
+          onOpenBudgetCalculator={handleOpenBudgetCalculator}
         />
       )}
 
@@ -402,6 +440,18 @@ function App() {
           setSelectedCountry(c);
           setIsDashboardOpen(false);
         }}
+        onOpenBudgetCalculator={handleOpenBudgetCalculator}
+      />
+
+      {/* Travel Budget Calculator Modal */}
+      <BudgetCalculator
+        isOpen={isBudgetOpen}
+        onClose={() => setIsBudgetOpen(false)}
+        country={budgetCountry}
+        allCountries={countries}
+        user={user}
+        collections={collections}
+        onSaveBudgetToCollection={handleSaveBudgetToCollection}
       />
 
       {/* Toast Notifications */}
