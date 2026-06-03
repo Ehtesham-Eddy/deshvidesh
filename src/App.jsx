@@ -275,38 +275,43 @@ function App() {
       
       {/* Header / Navigation */}
       <header className="header">
-        <div className="header-container" style={{ width: '100%' }}>
-          <div className="logo">
-            <div className="logo-icon">
-              <Globe size={20} />
-            </div>
-            DeshVidesh
-          </div>
+        <div className="header-container">
 
-          <div className="nav-actions">
-            {/* My Dashboard button */}
+          {/* Left: Dashboard */}
+          <div className="header-left">
             <button 
               className="btn btn-secondary badge-container"
               onClick={() => setIsDashboardOpen(true)}
             >
               <Layers size={16} />
-              Dashboard
+              <span className="btn-label">Dashboard</span>
               {favorites.length > 0 && <span className="badge">{favorites.length}</span>}
             </button>
+          </div>
 
-            {/* Auth Session controls */}
+          {/* Center: Logo */}
+          <div className="logo">
+            <div className="logo-icon">
+              <Globe size={20} />
+            </div>
+            <span className="logo-text">DeshVidesh</span>
+          </div>
+
+          {/* Right: Auth / Profile */}
+          <div className="header-right">
             {user ? (
               <button className="btn btn-accent" onClick={() => setIsDashboardOpen(true)}>
                 <User size={16} />
-                {user.username}
+                <span className="btn-label btn-label--truncate">{user.username}</span>
               </button>
             ) : (
               <button className="btn btn-primary" onClick={() => setIsAuthOpen(true)}>
                 <User size={16} />
-                Register / Login
+                <span className="btn-label">Login</span>
               </button>
             )}
           </div>
+
         </div>
       </header>
 
