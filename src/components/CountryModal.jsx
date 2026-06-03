@@ -10,7 +10,8 @@ import {
   Bookmark, 
   PlusCircle, 
   CheckCircle,
-  Languages
+  Languages,
+  Coins
 } from 'lucide-react';
 
 export default function CountryModal({ 
@@ -27,7 +28,7 @@ export default function CountryModal({
 }) {
   if (!country) return null;
 
-  const { name, code, continent, capital, language, origin, attractions, fact, neighbors, lat, lng } = country;
+  const { name, code, continent, capital, language, currency, origin, attractions, fact, neighbors, lat, lng } = country;
 
   // Banner & Flag CDN URLs
   const flagUrl = `https://flagcdn.com/w640/${code.toLowerCase()}.png`;
@@ -163,6 +164,16 @@ export default function CountryModal({
                 <div>
                   <div className="stat-label">Official Language(s)</div>
                   <div className="stat-value">{language}</div>
+                </div>
+              </div>
+
+              <div className="stat-item">
+                <div className="stat-icon">
+                  <Coins size={20} />
+                </div>
+                <div>
+                  <div className="stat-label">Official Currency</div>
+                  <div className="stat-value">{currency || 'Local Currency'}</div>
                 </div>
               </div>
             </div>

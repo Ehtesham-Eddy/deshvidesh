@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function CountryCard({ country, isFavorite, onToggleFavorite, onClick }) {
-  const { name, code, continent, capital, language } = country;
+  const { name, code, continent, capital, language, currency } = country;
 
   // flagcdn.com URL using lowercase 2-letter ISO country code
   const flagUrl = `https://flagcdn.com/w320/${code.toLowerCase()}.png`;
@@ -55,6 +55,9 @@ export default function CountryCard({ country, isFavorite, onToggleFavorite, onC
           </div>
           <div className="card-details">
             Language: <span>{language}</span>
+          </div>
+          <div className="card-details">
+            Currency: <span>{currency || 'Local Currency'}</span>
           </div>
         </div>
       </div>

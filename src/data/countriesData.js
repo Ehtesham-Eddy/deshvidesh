@@ -8,6 +8,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Kabul",
     "language": "Pashto, Dari",
+    "currency": "Afghan Afghani (AFN)",
     "lat": 33.9391,
     "lng": 67.71,
     "neighbors": [
@@ -33,6 +34,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Tirana",
     "language": "Albanian",
+    "currency": "Albanian Lek (ALL)",
     "lat": 41.1533,
     "lng": 20.1683,
     "neighbors": [
@@ -56,6 +58,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Algiers",
     "language": "Arabic, Berber",
+    "currency": "Algerian Dinar (DZD)",
     "lat": 28.0339,
     "lng": 1.6596,
     "neighbors": [
@@ -82,6 +85,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Andorra la Vella",
     "language": "Catalan",
+    "currency": "Euro (EUR)",
     "lat": 42.5063,
     "lng": 1.5218,
     "neighbors": [
@@ -103,6 +107,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Luanda",
     "language": "Portuguese",
+    "currency": "Angolan Kwanza (AOA)",
     "lat": -11.2027,
     "lng": 17.8739,
     "neighbors": [
@@ -126,6 +131,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Saint John's",
     "language": "English",
+    "currency": "East Caribbean Dollar (XCD)",
     "lat": 17.0608,
     "lng": -61.7964,
     "neighbors": [],
@@ -144,6 +150,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Buenos Aires",
     "language": "Spanish",
+    "currency": "Argentine Peso (ARS)",
     "lat": -38.4161,
     "lng": -63.6167,
     "neighbors": [
@@ -168,6 +175,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Yerevan",
     "language": "Armenian",
+    "currency": "Armenian Dram (AMD)",
     "lat": 40.0691,
     "lng": 45.0382,
     "neighbors": [
@@ -191,6 +199,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Canberra",
     "language": "English",
+    "currency": "Australian Dollar (AUD)",
     "lat": -25.2744,
     "lng": 133.7751,
     "neighbors": [],
@@ -209,6 +218,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Vienna",
     "language": "German",
+    "currency": "Euro (EUR)",
     "lat": 47.5162,
     "lng": 14.5501,
     "neighbors": [
@@ -236,6 +246,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Baku",
     "language": "Azerbaijani",
+    "currency": "Azerbaijani Manat (AZN)",
     "lat": 40.1431,
     "lng": 47.5769,
     "neighbors": [
@@ -260,6 +271,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Nassau",
     "language": "English",
+    "currency": "Bahamian Dollar (BSD)",
     "lat": 25.0343,
     "lng": -77.3963,
     "neighbors": [],
@@ -278,6 +290,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Manama",
     "language": "Arabic",
+    "currency": "Bahraini Dinar (BHD)",
     "lat": 26.0667,
     "lng": 50.55,
     "neighbors": [],
@@ -296,6 +309,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Dhaka",
     "language": "Bengali",
+    "currency": "Bangladeshi Taka (BDT)",
     "lat": 23.685,
     "lng": 90.3563,
     "neighbors": [
@@ -317,6 +331,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Bridgetown",
     "language": "English",
+    "currency": "Barbadian Dollar (BBD)",
     "lat": 13.1939,
     "lng": -59.5432,
     "neighbors": [],
@@ -335,6 +350,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Minsk",
     "language": "Belarusian, Russian",
+    "currency": "Belarusian Ruble (BYN)",
     "lat": 53.7098,
     "lng": 27.9534,
     "neighbors": [
@@ -359,6 +375,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Brussels",
     "language": "Dutch, French, German",
+    "currency": "Euro (EUR)",
     "lat": 50.5039,
     "lng": 4.4699,
     "neighbors": [
@@ -382,6 +399,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Belmopan",
     "language": "English",
+    "currency": "Belize Dollar (BZD)",
     "lat": 17.1899,
     "lng": -88.4976,
     "neighbors": [
@@ -403,6 +421,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Porto-Novo",
     "language": "French",
+    "currency": "West African CFA Franc (XOF)",
     "lat": 9.3077,
     "lng": 2.3158,
     "neighbors": [
@@ -426,6 +445,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Thimphu",
     "language": "Dzongkha",
+    "currency": "Bhutanese Ngultrum (BTN)",
     "lat": 27.5142,
     "lng": 90.4336,
     "neighbors": [
@@ -447,6 +467,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Sucre",
     "language": "Spanish, Quechua",
+    "currency": "Bolivian Boliviano (BOB)",
     "lat": -16.2902,
     "lng": -63.5887,
     "neighbors": [
@@ -471,6 +492,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Sarajevo",
     "language": "Bosnian, Croatian, Serbian",
+    "currency": "Convertible Mark (BAM)",
     "lat": 43.9159,
     "lng": 17.6791,
     "neighbors": [
@@ -493,6 +515,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Gaborone",
     "language": "English, Setswana",
+    "currency": "Botswanan Pula (BWP)",
     "lat": -22.3285,
     "lng": 24.6849,
     "neighbors": [
@@ -516,6 +539,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Brasilia",
     "language": "Portuguese",
+    "currency": "Brazilian Real (BRL)",
     "lat": -14.235,
     "lng": -51.9253,
     "neighbors": [
@@ -544,6 +568,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Bandar Seri Begawan",
     "language": "Malay",
+    "currency": "Brunei Dollar (BND)",
     "lat": 4.5353,
     "lng": 114.7277,
     "neighbors": [
@@ -564,6 +589,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Sofia",
     "language": "Bulgarian",
+    "currency": "Bulgarian Lev (BGN)",
     "lat": 42.7339,
     "lng": 25.4858,
     "neighbors": [
@@ -588,6 +614,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Ouagadougou",
     "language": "French",
+    "currency": "West African CFA Franc (XOF)",
     "lat": 12.2383,
     "lng": -1.5616,
     "neighbors": [
@@ -613,6 +640,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Gitega",
     "language": "Kirundi, French, English",
+    "currency": "Burundian Franc (BIF)",
     "lat": -3.3731,
     "lng": 29.9189,
     "neighbors": [
@@ -635,6 +663,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Praia",
     "language": "Portuguese",
+    "currency": "Cape Verdean Escudo (CVE)",
     "lat": 16.0021,
     "lng": -24.0132,
     "neighbors": [],
@@ -653,6 +682,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Phnom Penh",
     "language": "Khmer",
+    "currency": "Cambodian Riel (KHR)",
     "lat": 12.5657,
     "lng": 104.991,
     "neighbors": [
@@ -675,6 +705,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Yaounde",
     "language": "English, French",
+    "currency": "Central African CFA Franc (XAF)",
     "lat": 7.3697,
     "lng": 12.3547,
     "neighbors": [
@@ -700,6 +731,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Ottawa",
     "language": "English, French",
+    "currency": "Canadian Dollar (CAD)",
     "lat": 56.1304,
     "lng": -106.3468,
     "neighbors": [
@@ -720,6 +752,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Bangui",
     "language": "Sango, French",
+    "currency": "Central African CFA Franc (XAF)",
     "lat": 6.6111,
     "lng": 20.9394,
     "neighbors": [
@@ -745,6 +778,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "N'Djamena",
     "language": "Arabic, French",
+    "currency": "Central African CFA Franc (XAF)",
     "lat": 15.4542,
     "lng": 18.7322,
     "neighbors": [
@@ -770,6 +804,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Santiago",
     "language": "Spanish",
+    "currency": "Chilean Peso (CLP)",
     "lat": -35.6751,
     "lng": -71.543,
     "neighbors": [
@@ -792,6 +827,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Beijing",
     "language": "Mandarin",
+    "currency": "Chinese Yuan (CNY)",
     "lat": 35.8617,
     "lng": 104.1954,
     "neighbors": [
@@ -825,6 +861,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Bogota",
     "language": "Spanish",
+    "currency": "Colombian Peso (COP)",
     "lat": 4.5709,
     "lng": -74.2973,
     "neighbors": [
@@ -849,6 +886,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Moroni",
     "language": "Comorian, Arabic, French",
+    "currency": "Comorian Franc (KMF)",
     "lat": -11.875,
     "lng": 43.8722,
     "neighbors": [],
@@ -867,6 +905,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Brazzaville",
     "language": "French",
+    "currency": "Central African CFA Franc (XAF)",
     "lat": -0.228,
     "lng": 15.8277,
     "neighbors": [
@@ -891,6 +930,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "San Jose",
     "language": "Spanish",
+    "currency": "Costa Rican Colón (CRC)",
     "lat": 9.7489,
     "lng": -83.7534,
     "neighbors": [
@@ -912,6 +952,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Zagreb",
     "language": "Croatian",
+    "currency": "Euro (EUR)",
     "lat": 45.1,
     "lng": 15.2,
     "neighbors": [
@@ -936,6 +977,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Havana",
     "language": "Spanish",
+    "currency": "Cuban Peso (CUP)",
     "lat": 21.5218,
     "lng": -77.7812,
     "neighbors": [],
@@ -954,6 +996,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Nicosia",
     "language": "Greek, Turkish",
+    "currency": "Euro (EUR)",
     "lat": 35.1264,
     "lng": 33.4299,
     "neighbors": [],
@@ -972,6 +1015,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Prague",
     "language": "Czech",
+    "currency": "Czech Koruna (CZK)",
     "lat": 49.8175,
     "lng": 15.473,
     "neighbors": [
@@ -995,6 +1039,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Kinshasa",
     "language": "French",
+    "currency": "Congolese Franc (CDF)",
     "lat": -4.0383,
     "lng": 21.7587,
     "neighbors": [
@@ -1023,6 +1068,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Copenhagen",
     "language": "Danish",
+    "currency": "Danish Krone (DKK)",
     "lat": 56.2639,
     "lng": 9.5018,
     "neighbors": [
@@ -1043,6 +1089,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Djibouti",
     "language": "Arabic, French",
+    "currency": "Djiboutian Franc (DJF)",
     "lat": 11.8251,
     "lng": 42.5903,
     "neighbors": [
@@ -1065,6 +1112,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Roseau",
     "language": "English",
+    "currency": "East Caribbean Dollar (XCD)",
     "lat": 15.415,
     "lng": -61.371,
     "neighbors": [],
@@ -1083,6 +1131,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Santo Domingo",
     "language": "Spanish",
+    "currency": "Dominican Peso (DOP)",
     "lat": 18.7357,
     "lng": -70.1627,
     "neighbors": [
@@ -1103,6 +1152,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Quito",
     "language": "Spanish",
+    "currency": "US Dollar (USD)",
     "lat": -1.8312,
     "lng": -78.1834,
     "neighbors": [
@@ -1124,6 +1174,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Cairo",
     "language": "Arabic",
+    "currency": "Egyptian Pound (EGP)",
     "lat": 26.8206,
     "lng": 30.8025,
     "neighbors": [
@@ -1146,6 +1197,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "San Salvador",
     "language": "Spanish",
+    "currency": "US Dollar (USD)",
     "lat": 13.7942,
     "lng": -88.8965,
     "neighbors": [
@@ -1167,6 +1219,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Malabo",
     "language": "Spanish, French, Portuguese",
+    "currency": "Central African CFA Franc (XAF)",
     "lat": 1.6508,
     "lng": 10.2679,
     "neighbors": [
@@ -1188,6 +1241,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Asmara",
     "language": "Tigrinya, Arabic, English",
+    "currency": "Eritrean Nakfa (ERN)",
     "lat": 15.1794,
     "lng": 39.7823,
     "neighbors": [
@@ -1210,6 +1264,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Tallinn",
     "language": "Estonian",
+    "currency": "Euro (EUR)",
     "lat": 58.5953,
     "lng": 25.0136,
     "neighbors": [
@@ -1231,6 +1286,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Mbabane",
     "language": "Swazi, English",
+    "currency": "Swazi Lilangeni (SZL)",
     "lat": -26.5225,
     "lng": 31.4659,
     "neighbors": [
@@ -1252,6 +1308,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Addis Ababa",
     "language": "Amharic",
+    "currency": "Ethiopian Birr (ETB)",
     "lat": 9.145,
     "lng": 40.4897,
     "neighbors": [
@@ -1277,6 +1334,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Suva",
     "language": "English, Fijian",
+    "currency": "Fijian Dollar (FJD)",
     "lat": -17.7134,
     "lng": 178.065,
     "neighbors": [],
@@ -1295,6 +1353,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Helsinki",
     "language": "Finnish, Swedish",
+    "currency": "Euro (EUR)",
     "lat": 61.9241,
     "lng": 25.7482,
     "neighbors": [
@@ -1317,6 +1376,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Paris",
     "language": "French",
+    "currency": "Euro (EUR)",
     "lat": 46.2276,
     "lng": 2.2137,
     "neighbors": [
@@ -1344,6 +1404,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Libreville",
     "language": "French",
+    "currency": "Central African CFA Franc (XAF)",
     "lat": -0.8037,
     "lng": 11.6094,
     "neighbors": [
@@ -1366,6 +1427,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Banjul",
     "language": "English",
+    "currency": "Gambian Dalasi (GMD)",
     "lat": 13.4432,
     "lng": -15.3101,
     "neighbors": [
@@ -1386,6 +1448,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Tbilisi",
     "language": "Georgian",
+    "currency": "Georgian Lari (GEL)",
     "lat": 42.3154,
     "lng": 43.3569,
     "neighbors": [
@@ -1409,6 +1472,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Berlin",
     "language": "German",
+    "currency": "Euro (EUR)",
     "lat": 51.1657,
     "lng": 10.4515,
     "neighbors": [
@@ -1437,6 +1501,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Accra",
     "language": "English",
+    "currency": "Ghanaian Cedi (GHS)",
     "lat": 7.9465,
     "lng": -1.0232,
     "neighbors": [
@@ -1459,6 +1524,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Athens",
     "language": "Greek",
+    "currency": "Euro (EUR)",
     "lat": 39.0742,
     "lng": 21.8243,
     "neighbors": [
@@ -1482,6 +1548,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Saint George's",
     "language": "English",
+    "currency": "East Caribbean Dollar (XCD)",
     "lat": 12.1165,
     "lng": -61.679,
     "neighbors": [],
@@ -1500,6 +1567,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Guatemala City",
     "language": "Spanish",
+    "currency": "Guatemalan Quetzal (GTQ)",
     "lat": 15.7835,
     "lng": -90.2308,
     "neighbors": [
@@ -1523,6 +1591,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Conakry",
     "language": "French",
+    "currency": "Guinean Franc (GNF)",
     "lat": 9.9456,
     "lng": -9.6966,
     "neighbors": [
@@ -1548,6 +1617,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Bissau",
     "language": "Portuguese",
+    "currency": "West African CFA Franc (XOF)",
     "lat": 11.8037,
     "lng": -15.1804,
     "neighbors": [
@@ -1569,6 +1639,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Georgetown",
     "language": "English",
+    "currency": "Guyanese Dollar (GYD)",
     "lat": 4.8604,
     "lng": -58.9302,
     "neighbors": [
@@ -1591,6 +1662,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Port-au-Prince",
     "language": "Haitian Creole, French",
+    "currency": "Haitian Gourde (HTG)",
     "lat": 18.9712,
     "lng": -72.2852,
     "neighbors": [
@@ -1611,6 +1683,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Tegucigalpa",
     "language": "Spanish",
+    "currency": "Honduran Lempira (HNL)",
     "lat": 15.1999,
     "lng": -86.2419,
     "neighbors": [
@@ -1633,6 +1706,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Budapest",
     "language": "Hungarian",
+    "currency": "Hungarian Forint (HUF)",
     "lat": 47.1625,
     "lng": 19.5033,
     "neighbors": [
@@ -1659,6 +1733,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Reykjavik",
     "language": "Icelandic",
+    "currency": "Icelandic Króna (ISK)",
     "lat": 64.9631,
     "lng": -19.0208,
     "neighbors": [],
@@ -1677,6 +1752,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "New Delhi",
     "language": "Hindi, English",
+    "currency": "Indian Rupee (INR)",
     "lat": 20.5937,
     "lng": 78.9629,
     "neighbors": [
@@ -1702,6 +1778,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Jakarta",
     "language": "Indonesian",
+    "currency": "Indonesian Rupiah (IDR)",
     "lat": -0.7893,
     "lng": 113.9213,
     "neighbors": [
@@ -1724,16 +1801,17 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Tehran",
     "language": "Persian",
+    "currency": "Iranian Rial (IRR)",
     "lat": 32.4279,
     "lng": 53.688,
     "neighbors": [
       "Iraq",
       "Turkey",
-      "Armenia",
-      "Azerbaijan",
-      "Turkmenistan",
-      "Afghanistan",
-      "Pakistan"
+      "Iran",
+      "Kuwait",
+      "Saudi Arabia",
+      "Jordan",
+      "Syria"
     ],
     "origin": "Iran's name has deep roots. Derived from the indigenous language or historical European exploration records describing the unique environment or local settlements.",
     "attractions": [
@@ -1750,6 +1828,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Baghdad",
     "language": "Arabic, Kurdish",
+    "currency": "Iraqi Dinar (IQD)",
     "lat": 33.2232,
     "lng": 43.6793,
     "neighbors": [
@@ -1775,6 +1854,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Dublin",
     "language": "Irish, English",
+    "currency": "Euro (EUR)",
     "lat": 53.4129,
     "lng": -8.2439,
     "neighbors": [
@@ -1795,6 +1875,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Jerusalem",
     "language": "Hebrew, Arabic",
+    "currency": "New Israeli Shekel (ILS)",
     "lat": 31.0461,
     "lng": 34.8516,
     "neighbors": [
@@ -1818,6 +1899,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Rome",
     "language": "Italian",
+    "currency": "Euro (EUR)",
     "lat": 41.8719,
     "lng": 12.5674,
     "neighbors": [
@@ -1843,6 +1925,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Kingston",
     "language": "English",
+    "currency": "Jamaican Dollar (JMD)",
     "lat": 18.1096,
     "lng": -77.2975,
     "neighbors": [],
@@ -1861,6 +1944,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Tokyo",
     "language": "Japanese",
+    "currency": "Japanese Yen (JPY)",
     "lat": 36.2048,
     "lng": 138.2529,
     "neighbors": [],
@@ -1879,6 +1963,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Amman",
     "language": "Arabic",
+    "currency": "Jordanian Dinar (JOD)",
     "lat": 30.5852,
     "lng": 36.2384,
     "neighbors": [
@@ -1902,6 +1987,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Astana",
     "language": "Kazakh, Russian",
+    "currency": "Kazakhstani Tenge (KZT)",
     "lat": 48.0196,
     "lng": 66.9237,
     "neighbors": [
@@ -1926,6 +2012,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Nairobi",
     "language": "Swahili, English",
+    "currency": "Kenyan Shilling (KES)",
     "lat": -0.0236,
     "lng": 37.9062,
     "neighbors": [
@@ -1950,6 +2037,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "South Tarawa",
     "language": "Gilbertese, English",
+    "currency": "Australian Dollar (AUD)",
     "lat": -3.3704,
     "lng": -168.734,
     "neighbors": [],
@@ -1968,6 +2056,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Kuwait City",
     "language": "Arabic",
+    "currency": "Kuwaiti Dinar (KWD)",
     "lat": 29.3759,
     "lng": 47.9774,
     "neighbors": [
@@ -1989,6 +2078,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Bishkek",
     "language": "Kyrgyz, Russian",
+    "currency": "Kyrgyzstani Som (KGS)",
     "lat": 41.2044,
     "lng": 74.7661,
     "neighbors": [
@@ -2012,6 +2102,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Vientiane",
     "language": "Lao",
+    "currency": "Lao Kip (LAK)",
     "lat": 19.8563,
     "lng": 102.4955,
     "neighbors": [
@@ -2036,6 +2127,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Riga",
     "language": "Latvian",
+    "currency": "Euro (EUR)",
     "lat": 56.8796,
     "lng": 24.6032,
     "neighbors": [
@@ -2059,6 +2151,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Beirut",
     "language": "Arabic, French",
+    "currency": "Lebanese Pound (LBP)",
     "lat": 33.8547,
     "lng": 35.8623,
     "neighbors": [
@@ -2080,6 +2173,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Maseru",
     "language": "Sesotho, English",
+    "currency": "Lesotho Loti (LSL)",
     "lat": -29.6099,
     "lng": 28.2336,
     "neighbors": [
@@ -2100,6 +2194,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Monrovia",
     "language": "English",
+    "currency": "Liberian Dollar (LRD)",
     "lat": 6.4281,
     "lng": -9.4295,
     "neighbors": [
@@ -2122,6 +2217,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Tripoli",
     "language": "Arabic",
+    "currency": "Libyan Dinar (LYD)",
     "lat": 26.3351,
     "lng": 17.2283,
     "neighbors": [
@@ -2147,6 +2243,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Vaduz",
     "language": "German",
+    "currency": "Swiss Franc (CHF)",
     "lat": 47.166,
     "lng": 9.5554,
     "neighbors": [
@@ -2168,6 +2265,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Vilnius",
     "language": "Lithuanian",
+    "currency": "Euro (EUR)",
     "lat": 55.1694,
     "lng": 23.8813,
     "neighbors": [
@@ -2191,6 +2289,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Luxembourg City",
     "language": "Luxembourgish, French",
+    "currency": "Euro (EUR)",
     "lat": 49.8153,
     "lng": 6.1296,
     "neighbors": [
@@ -2213,6 +2312,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Antananarivo",
     "language": "Malagasy, French",
+    "currency": "Malagasy Ariary (MGA)",
     "lat": -18.7669,
     "lng": 46.8691,
     "neighbors": [],
@@ -2231,6 +2331,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Lilongwe",
     "language": "Chichewa, English",
+    "currency": "Malawian Kwacha (MWK)",
     "lat": -13.2543,
     "lng": 34.3015,
     "neighbors": [
@@ -2253,6 +2354,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Kuala Lumpur",
     "language": "Malay",
+    "currency": "Malaysian Ringgit (MYR)",
     "lat": 4.2105,
     "lng": 101.9758,
     "neighbors": [
@@ -2275,6 +2377,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Male",
     "language": "Dhivehi",
+    "currency": "Maldivian Rufiyaa (MVR)",
     "lat": 3.2028,
     "lng": 73.2207,
     "neighbors": [],
@@ -2293,6 +2396,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Bamako",
     "language": "French",
+    "currency": "West African CFA Franc (XOF)",
     "lat": 17.5707,
     "lng": -3.9962,
     "neighbors": [
@@ -2319,6 +2423,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Valletta",
     "language": "Maltese, English",
+    "currency": "Euro (EUR)",
     "lat": 35.9375,
     "lng": 14.3754,
     "neighbors": [],
@@ -2337,6 +2442,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Majuro",
     "language": "Marshallese, English",
+    "currency": "US Dollar (USD)",
     "lat": 7.1315,
     "lng": 171.1844,
     "neighbors": [],
@@ -2355,6 +2461,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Nouakchott",
     "language": "Arabic",
+    "currency": "Mauritanian Ouguiya (MRU)",
     "lat": 21.0079,
     "lng": -10.9408,
     "neighbors": [
@@ -2378,6 +2485,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Port Louis",
     "language": "English, French",
+    "currency": "Mauritian Rupee (MUR)",
     "lat": -20.3484,
     "lng": 57.5522,
     "neighbors": [],
@@ -2396,6 +2504,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Mexico City",
     "language": "Spanish",
+    "currency": "Mexican Peso (MXN)",
     "lat": 23.6345,
     "lng": -102.5528,
     "neighbors": [
@@ -2418,6 +2527,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Palikir",
     "language": "English",
+    "currency": "US Dollar (USD)",
     "lat": 7.4256,
     "lng": 150.5508,
     "neighbors": [],
@@ -2436,6 +2546,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Chisinau",
     "language": "Romanian",
+    "currency": "Moldovan Leu (MDL)",
     "lat": 47.4116,
     "lng": 28.3699,
     "neighbors": [
@@ -2457,6 +2568,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Monaco",
     "language": "French",
+    "currency": "Euro (EUR)",
     "lat": 43.7384,
     "lng": 7.4246,
     "neighbors": [
@@ -2477,6 +2589,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Ulaanbaatar",
     "language": "Mongolian",
+    "currency": "Mongolian Tögrög (MNT)",
     "lat": 46.8625,
     "lng": 103.8467,
     "neighbors": [
@@ -2498,6 +2611,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Podgorica",
     "language": "Montenegrin",
+    "currency": "Euro (EUR)",
     "lat": 42.7087,
     "lng": 19.3744,
     "neighbors": [
@@ -2522,6 +2636,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Rabat",
     "language": "Arabic, Berber",
+    "currency": "Moroccan Dirham (MAD)",
     "lat": 31.7917,
     "lng": -7.0926,
     "neighbors": [
@@ -2544,6 +2659,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Maputo",
     "language": "Portuguese",
+    "currency": "Mozambican Metical (MZN)",
     "lat": -18.6657,
     "lng": 35.5296,
     "neighbors": [
@@ -2569,6 +2685,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Naypyidaw",
     "language": "Burmese",
+    "currency": "Burmese Kyat (MMK)",
     "lat": 21.9162,
     "lng": 95.956,
     "neighbors": [
@@ -2593,6 +2710,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Windhoek",
     "language": "English",
+    "currency": "Namibian Dollar (NAD)",
     "lat": -22.9576,
     "lng": 18.4904,
     "neighbors": [
@@ -2616,6 +2734,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Yaren",
     "language": "Nauruan, English",
+    "currency": "Australian Dollar (AUD)",
     "lat": -0.5228,
     "lng": 166.9315,
     "neighbors": [],
@@ -2634,6 +2753,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Kathmandu",
     "language": "Nepali",
+    "currency": "Nepalese Rupee (NPR)",
     "lat": 28.3949,
     "lng": 84.124,
     "neighbors": [
@@ -2655,6 +2775,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Amsterdam",
     "language": "Dutch",
+    "currency": "Euro (EUR)",
     "lat": 52.1326,
     "lng": 5.2913,
     "neighbors": [
@@ -2676,6 +2797,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Wellington",
     "language": "English, Maori",
+    "currency": "New Zealand Dollar (NZD)",
     "lat": -40.9006,
     "lng": 174.886,
     "neighbors": [],
@@ -2694,6 +2816,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Managua",
     "language": "Spanish",
+    "currency": "Nicaraguan Córdoba (NIO)",
     "lat": 12.8654,
     "lng": -85.2072,
     "neighbors": [
@@ -2715,6 +2838,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Niamey",
     "language": "French",
+    "currency": "West African CFA Franc (XOF)",
     "lat": 17.6078,
     "lng": 8.0817,
     "neighbors": [
@@ -2741,6 +2865,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Abuja",
     "language": "English",
+    "currency": "Nigerian Naira (NGN)",
     "lat": 9.082,
     "lng": 8.6753,
     "neighbors": [
@@ -2764,6 +2889,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Pyongyang",
     "language": "Korean",
+    "currency": "North Korean Won (KPW)",
     "lat": 40.3399,
     "lng": 127.5101,
     "neighbors": [
@@ -2786,6 +2912,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Skopje",
     "language": "Macedonian",
+    "currency": "Macedonian Denar (MKD)",
     "lat": 41.6086,
     "lng": 21.7453,
     "neighbors": [
@@ -2810,6 +2937,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Oslo",
     "language": "Norwegian",
+    "currency": "Norwegian Krone (NOK)",
     "lat": 60.472,
     "lng": 8.4689,
     "neighbors": [
@@ -2832,6 +2960,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Muscat",
     "language": "Arabic",
+    "currency": "Omani Rial (OMR)",
     "lat": 21.5126,
     "lng": 55.9233,
     "neighbors": [
@@ -2854,6 +2983,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Islamabad",
     "language": "Urdu, English",
+    "currency": "Pakistani Rupee (PKR)",
     "lat": 30.3753,
     "lng": 69.3451,
     "neighbors": [
@@ -2877,6 +3007,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Ngerulmud",
     "language": "Palauan, English",
+    "currency": "US Dollar (USD)",
     "lat": 7.515,
     "lng": 134.5825,
     "neighbors": [],
@@ -2895,6 +3026,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Panama City",
     "language": "Spanish",
+    "currency": "Panamanian Balboa (PAB)",
     "lat": 8.538,
     "lng": -80.7821,
     "neighbors": [
@@ -2916,6 +3048,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Port Moresby",
     "language": "English, Tok Pisin",
+    "currency": "Papua New Guinean Kina (PGK)",
     "lat": -6.315,
     "lng": 143.9555,
     "neighbors": [
@@ -2936,6 +3069,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Asuncion",
     "language": "Spanish, Guarani",
+    "currency": "Paraguayan Guaraní (PYG)",
     "lat": -23.4425,
     "lng": -58.4438,
     "neighbors": [
@@ -2958,6 +3092,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Lima",
     "language": "Spanish, Quechua",
+    "currency": "Peruvian Sol (PEN)",
     "lat": -9.19,
     "lng": -75.0152,
     "neighbors": [
@@ -2982,6 +3117,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Manila",
     "language": "Filipino, English",
+    "currency": "Philippine Peso (PHP)",
     "lat": 12.8797,
     "lng": 121.774,
     "neighbors": [],
@@ -3000,6 +3136,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Warsaw",
     "language": "Polish",
+    "currency": "Polish Złoty (PLN)",
     "lat": 51.9194,
     "lng": 19.1451,
     "neighbors": [
@@ -3026,6 +3163,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Lisbon",
     "language": "Portuguese",
+    "currency": "Euro (EUR)",
     "lat": 39.3999,
     "lng": -8.2245,
     "neighbors": [
@@ -3046,6 +3184,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Doha",
     "language": "Arabic",
+    "currency": "Qatari Riyal (QAR)",
     "lat": 25.3548,
     "lng": 51.1839,
     "neighbors": [
@@ -3066,6 +3205,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Bucharest",
     "language": "Romanian",
+    "currency": "Romanian Leu (RON)",
     "lat": 45.9432,
     "lng": 24.9668,
     "neighbors": [
@@ -3090,6 +3230,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Moscow",
     "language": "Russian",
+    "currency": "Russian Ruble (RUB)",
     "lat": 61.524,
     "lng": 105.3188,
     "neighbors": [
@@ -3123,6 +3264,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Kigali",
     "language": "Kinyarwanda, French, English",
+    "currency": "Rwandan Franc (RWF)",
     "lat": -1.9403,
     "lng": 29.8739,
     "neighbors": [
@@ -3146,6 +3288,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Basseterre",
     "language": "English",
+    "currency": "East Caribbean Dollar (XCD)",
     "lat": 17.3578,
     "lng": -62.783,
     "neighbors": [],
@@ -3164,6 +3307,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Castries",
     "language": "English",
+    "currency": "East Caribbean Dollar (XCD)",
     "lat": 13.9094,
     "lng": -60.9789,
     "neighbors": [],
@@ -3182,6 +3326,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Kingstown",
     "language": "English",
+    "currency": "East Caribbean Dollar (XCD)",
     "lat": 12.9843,
     "lng": -61.2872,
     "neighbors": [],
@@ -3200,6 +3345,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Apia",
     "language": "Samoan, English",
+    "currency": "Samoan Tālā (WST)",
     "lat": -13.759,
     "lng": -172.1046,
     "neighbors": [],
@@ -3218,6 +3364,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "San Marino",
     "language": "Italian",
+    "currency": "Euro (EUR)",
     "lat": 43.9424,
     "lng": 12.4578,
     "neighbors": [
@@ -3238,6 +3385,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Sao Tome",
     "language": "Portuguese",
+    "currency": "São Tomé and Príncipe Dobra (STN)",
     "lat": 0.1864,
     "lng": 6.6131,
     "neighbors": [],
@@ -3256,6 +3404,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Riyadh",
     "language": "Arabic",
+    "currency": "Saudi Riyal (SAR)",
     "lat": 23.8859,
     "lng": 45.0792,
     "neighbors": [
@@ -3282,6 +3431,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Dakar",
     "language": "French",
+    "currency": "West African CFA Franc (XOF)",
     "lat": 14.4974,
     "lng": -14.4524,
     "neighbors": [
@@ -3306,6 +3456,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Belgrade",
     "language": "Serbian",
+    "currency": "Serbian Dinar (RSD)",
     "lat": 44.0165,
     "lng": 21.0059,
     "neighbors": [
@@ -3333,6 +3484,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Victoria",
     "language": "Seychellois Creole, English",
+    "currency": "Seychellois Rupee (SCR)",
     "lat": -4.6796,
     "lng": 55.492,
     "neighbors": [],
@@ -3351,6 +3503,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Freetown",
     "language": "English",
+    "currency": "Sierra Leonean Leone (SLL)",
     "lat": 8.4606,
     "lng": -11.7799,
     "neighbors": [
@@ -3372,6 +3525,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Singapore",
     "language": "English, Mandarin, Malay",
+    "currency": "Singapore Dollar (SGD)",
     "lat": 1.3521,
     "lng": 103.8198,
     "neighbors": [],
@@ -3390,6 +3544,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Bratislava",
     "language": "Slovak",
+    "currency": "Euro (EUR)",
     "lat": 48.669,
     "lng": 19.699,
     "neighbors": [
@@ -3414,6 +3569,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Ljubljana",
     "language": "Slovenian",
+    "currency": "Euro (EUR)",
     "lat": 46.1512,
     "lng": 14.9955,
     "neighbors": [
@@ -3437,6 +3593,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Honiara",
     "language": "English",
+    "currency": "Solomon Islands Dollar (SBD)",
     "lat": -9.6457,
     "lng": 160.1562,
     "neighbors": [],
@@ -3455,6 +3612,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Mogadishu",
     "language": "Somali, Arabic",
+    "currency": "Somali Shilling (SOS)",
     "lat": 5.1521,
     "lng": 46.1996,
     "neighbors": [
@@ -3477,6 +3635,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Pretoria",
     "language": "Zulu, Xhosa, English, Afrikaans",
+    "currency": "South African Rand (ZAR)",
     "lat": -30.5595,
     "lng": 22.9375,
     "neighbors": [
@@ -3502,6 +3661,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Seoul",
     "language": "Korean",
+    "currency": "South Korean Won (KRW)",
     "lat": 35.9078,
     "lng": 127.7669,
     "neighbors": [
@@ -3522,6 +3682,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Juba",
     "language": "English",
+    "currency": "South Sudanese Pound (SSP)",
     "lat": 6.877,
     "lng": 31.307,
     "neighbors": [
@@ -3547,6 +3708,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Madrid",
     "language": "Spanish",
+    "currency": "Euro (EUR)",
     "lat": 40.4637,
     "lng": -3.7492,
     "neighbors": [
@@ -3570,6 +3732,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Sri Jayawardenepura Kotte",
     "language": "Sinhala, Tamil",
+    "currency": "Sri Lankan Rupee (LKR)",
     "lat": 7.8731,
     "lng": 80.7718,
     "neighbors": [],
@@ -3588,6 +3751,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Khartoum",
     "language": "Arabic, English",
+    "currency": "Sudanese Pound (SDG)",
     "lat": 12.8628,
     "lng": 30.2176,
     "neighbors": [
@@ -3614,6 +3778,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Paramaribo",
     "language": "Dutch",
+    "currency": "Surinamese Dollar (SRD)",
     "lat": 3.9193,
     "lng": -56.0278,
     "neighbors": [
@@ -3636,6 +3801,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Stockholm",
     "language": "Swedish",
+    "currency": "Swedish Krona (SEK)",
     "lat": 60.1282,
     "lng": 18.6435,
     "neighbors": [
@@ -3657,6 +3823,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Bern",
     "language": "German, French, Italian",
+    "currency": "Swiss Franc (CHF)",
     "lat": 46.8182,
     "lng": 8.2275,
     "neighbors": [
@@ -3681,6 +3848,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Damascus",
     "language": "Arabic",
+    "currency": "Syrian Pound (SYP)",
     "lat": 34.8021,
     "lng": 38.9968,
     "neighbors": [
@@ -3705,6 +3873,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Taipei",
     "language": "Mandarin",
+    "currency": "New Taiwan Dollar (TWD)",
     "lat": 23.6978,
     "lng": 120.9605,
     "neighbors": [],
@@ -3723,6 +3892,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Dushanbe",
     "language": "Tajik",
+    "currency": "Tajikistani Somoni (TJS)",
     "lat": 38.861,
     "lng": 71.2761,
     "neighbors": [
@@ -3746,6 +3916,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Dodoma",
     "language": "Swahili, English",
+    "currency": "Tanzanian Shilling (TZS)",
     "lat": -6.369,
     "lng": 34.8888,
     "neighbors": [
@@ -3773,6 +3944,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Bangkok",
     "language": "Thai",
+    "currency": "Thai Baht (THB)",
     "lat": 15.87,
     "lng": 100.9925,
     "neighbors": [
@@ -3796,6 +3968,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Dili",
     "language": "Tetum, Portuguese",
+    "currency": "US Dollar (USD)",
     "lat": -8.8742,
     "lng": 125.7275,
     "neighbors": [
@@ -3816,6 +3989,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Lome",
     "language": "French",
+    "currency": "West African CFA Franc (XOF)",
     "lat": 8.6195,
     "lng": 0.8248,
     "neighbors": [
@@ -3838,6 +4012,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Nuku'alofa",
     "language": "Tongan, English",
+    "currency": "Tongan Paʻanga (TOP)",
     "lat": -21.1789,
     "lng": -175.1982,
     "neighbors": [],
@@ -3856,6 +4031,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Port of Spain",
     "language": "English",
+    "currency": "Trinidad and Tobago Dollar (TTD)",
     "lat": 10.6918,
     "lng": -61.2225,
     "neighbors": [],
@@ -3874,6 +4050,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Tunis",
     "language": "Arabic",
+    "currency": "Tunisian Dinar (TND)",
     "lat": 33.8869,
     "lng": 9.5375,
     "neighbors": [
@@ -3895,6 +4072,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Ankara",
     "language": "Turkish",
+    "currency": "Turkish Lira (TRY)",
     "lat": 38.9637,
     "lng": 35.2433,
     "neighbors": [
@@ -3922,6 +4100,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Ashgabat",
     "language": "Turkmen",
+    "currency": "Turkmenistani Manat (TMT)",
     "lat": 38.9697,
     "lng": 59.5563,
     "neighbors": [
@@ -3945,6 +4124,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Funafuti",
     "language": "Tuvaluan, English",
+    "currency": "Tuvaluan Dollar (TVD)",
     "lat": -7.1095,
     "lng": 177.6493,
     "neighbors": [],
@@ -3963,6 +4143,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Kampala",
     "language": "English, Swahili",
+    "currency": "Ugandan Shilling (UGX)",
     "lat": 1.3733,
     "lng": 32.2903,
     "neighbors": [
@@ -3987,6 +4168,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Kyiv",
     "language": "Ukrainian",
+    "currency": "Ukrainian Hryvnia (UAH)",
     "lat": 48.3794,
     "lng": 31.1656,
     "neighbors": [
@@ -4013,6 +4195,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Abu Dhabi",
     "language": "Arabic",
+    "currency": "United Arab Emirates Dirham (AED)",
     "lat": 23.4241,
     "lng": 53.8478,
     "neighbors": [
@@ -4034,6 +4217,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "London",
     "language": "English",
+    "currency": "British Pound (GBP)",
     "lat": 55.3781,
     "lng": -3.436,
     "neighbors": [
@@ -4054,6 +4238,7 @@ export const countriesData = [
     "continent": "North America",
     "capital": "Washington, D.C.",
     "language": "English",
+    "currency": "US Dollar (USD)",
     "lat": 37.0902,
     "lng": -95.7129,
     "neighbors": [
@@ -4075,6 +4260,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Montevideo",
     "language": "Spanish",
+    "currency": "Uruguayan Peso (UYU)",
     "lat": -32.5228,
     "lng": -55.7658,
     "neighbors": [
@@ -4096,6 +4282,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Tashkent",
     "language": "Uzbek",
+    "currency": "Uzbekistani Som (UZS)",
     "lat": 41.3775,
     "lng": 64.5853,
     "neighbors": [
@@ -4120,6 +4307,7 @@ export const countriesData = [
     "continent": "Oceania",
     "capital": "Port Vila",
     "language": "Bislama, English, French",
+    "currency": "Vanuatu Vatu (VUV)",
     "lat": -15.3767,
     "lng": 166.9592,
     "neighbors": [],
@@ -4138,6 +4326,7 @@ export const countriesData = [
     "continent": "Europe",
     "capital": "Vatican City",
     "language": "Italian, Latin",
+    "currency": "Euro (EUR)",
     "lat": 41.9029,
     "lng": 12.4534,
     "neighbors": [
@@ -4158,6 +4347,7 @@ export const countriesData = [
     "continent": "South America",
     "capital": "Caracas",
     "language": "Spanish",
+    "currency": "Venezuelan Bolívar (VES)",
     "lat": 6.4238,
     "lng": -66.5897,
     "neighbors": [
@@ -4180,6 +4370,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Hanoi",
     "language": "Vietnamese",
+    "currency": "Vietnamese Đồng (VND)",
     "lat": 14.0583,
     "lng": 108.2772,
     "neighbors": [
@@ -4202,6 +4393,7 @@ export const countriesData = [
     "continent": "Asia",
     "capital": "Sana'a",
     "language": "Arabic",
+    "currency": "Yemeni Rial (YER)",
     "lat": 15.5527,
     "lng": 48.5164,
     "neighbors": [
@@ -4223,6 +4415,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Lusaka",
     "language": "English",
+    "currency": "Zambian Kwacha (ZMW)",
     "lat": -13.1339,
     "lng": 27.8493,
     "neighbors": [
@@ -4250,6 +4443,7 @@ export const countriesData = [
     "continent": "Africa",
     "capital": "Harare",
     "language": "English, Shona, Ndebele",
+    "currency": "Zimbabwean Dollar (ZWL)",
     "lat": -19.0154,
     "lng": 29.1549,
     "neighbors": [
