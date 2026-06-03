@@ -65,6 +65,16 @@ export default function BudgetCalculator({
   const numTravelers = parseInt(travelers) || 1;
   const numDays = parseInt(duration) || 1;
 
+  // Conversion factor
+  const USD_TO_INR = 83;
+  const formatINR = (usdAmount) => {
+    return new Intl.NumberFormat('en-IN', {
+      style: 'currency',
+      currency: 'INR',
+      maximumFractionDigits: 0
+    }).format(usdAmount * USD_TO_INR);
+  };
+
   // Calculate totals
   const dailyAccommodationTotal = costBreakdown.accommodation * numTravelers * numDays;
   const dailyFoodTotal = costBreakdown.food * numTravelers * numDays;
@@ -100,7 +110,9 @@ export default function BudgetCalculator({
       flightCost: flights,
       extraCost: extras,
       totalCost: grandTotal,
-      costPerPerson
+      costPerPerson,
+      totalCostINR: formatINR(grandTotal),
+      costPerPersonINR: formatINR(costPerPerson)
     };
 
     onSaveBudgetToCollection(selectedCollectionId, budgetData);
@@ -279,15 +291,18 @@ export default function BudgetCalculator({
           <div className="modal-right-column" style={{ justifyContent: 'space-between' }}>
             
             {/* Total Budget Outputs */}
-            <div style={{ textAlign: 'center', backgroundColor: '#e0e7ff', padding: '20px', borderRadius: 'var(--radius-md)', border: '1px solid #c7d2fe' }}>
-              <div style={{ fontSize: '13px', textTransform: 'uppercase', fontWeight: 700, letterSpacing: '0.5px', color: 'var(--accent-primary)' }}>
+            <div style={{ textAlign: 'center', backgroundColor: '#e0e7ff', padding: '16px 20px', borderRadius: 'var(--radius-md)', border: '1px solid #c7d2fe' }}>
+              <div style={{ fontSize: '12px', textTransform: 'uppercase', fontWeight: 700, letterSpacing: '0.5px', color: 'var(--accent-primary)' }}>
                 Total Estimated Budget
               </div>
-              <div style={{ fontSize: '38px', fontWeight: 800, color: 'var(--text-primary)', margin: '4px 0', lineHeight: 1 }}>
+              <div style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-primary)', marginTop: '2px', lineHeight: 1 }}>
                 ${grandTotal.toLocaleString()}
               </div>
-              <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
-                Cost per traveler: <strong>${costPerPerson.toLocaleString()}</strong> ({numTravelers} person/people)
+              <div style={{ fontSize: '16px', fontWeight: 700, color: 'var(--accent-primary)', marginBottom: '6px', lineHeight: 1.2 }}>
+                {formatINR(grandTotal)}
+              </div>
+              <div style={{ fontSize: '11px', color: 'var(--text-secondary)' }}>
+                Per traveler: <strong>${costPerPerson.toLocaleString()} / {formatINR(costPerPerson)}</strong> ({numTravelers} traveler/s)
               </div>
             </div>
 
@@ -320,30 +335,30 @@ export default function BudgetCalculator({
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px', fontSize: '11px', marginTop: '10px', color: 'var(--text-secondary)' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#4f46e5', display: 'inline-block' }}></span>
-                  Stay: ${dailyAccommodationTotal.toLocaleString()} ({pctAccommodation}%)
+                  Stay: ${dailyAccommodationTotal.toLocaleString()} / {formatINR(dailyAccommodationTotal)} ({pctAccommodation}%)
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#06b6d4', display: 'inline-block' }}></span>
-                  Food: ${dailyFoodTotal.toLocaleString()} ({pctFood}%)
+                  Food: ${dailyFoodTotal.toLocaleString()} / {formatINR(dailyFoodTotal)} ({pctFood}%)
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#10b981', display: 'inline-block' }}></span>
-                  Transit: ${dailyTransportTotal.toLocaleString()} ({pctTransport}%)
+                  Transit: ${dailyTransportTotal.toLocaleString()} / {formatINR(dailyTransportTotal)} ({pctTransport}%)
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#f59e0b', display: 'inline-block' }}></span>
-                  Excursions: ${dailyActivitiesTotal.toLocaleString()} ({pctActivities}%)
+                  Excursions: ${dailyActivitiesTotal.toLocaleString()} / {formatINR(dailyActivitiesTotal)} ({pctActivities}%)
                 </div>
                 {flights > 0 && (
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                     <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#ef4444', display: 'inline-block' }}></span>
-                    Flights: ${flights.toLocaleString()} ({pctFlights}%)
+                    Flights: ${flights.toLocaleString()} / {formatINR(flights)} ({pctFlights}%)
                   </div>
                 )}
                 {extras > 0 && (
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                     <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#64748b', display: 'inline-block' }}></span>
-                    Extras: ${extras.toLocaleString()} ({pctExtras}%)
+                    Extras: ${extras.toLocaleString()} / {formatINR(extras)} ({pctExtras}%)
                   </div>
                 )}
               </div>

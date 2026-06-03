@@ -137,15 +137,20 @@ export default function Dashboard({
                             margin: '8px 0',
                             cursor: 'pointer',
                             display: 'flex',
-                            justifyContent: 'space-between',
-                            alignItems: 'center'
+                            flexDirection: 'column',
+                            gap: '4px',
+                            alignItems: 'stretch'
                           }}
                           title="Click to recalculate or edit budget"
                         >
-                          <span>Budget: ${col.budget.totalCost.toLocaleString()}</span>
-                          <span style={{ fontSize: '11px', opacity: 0.8 }}>
-                            {col.budget.duration}d / {col.budget.travelers}p / ${col.budget.costPerPerson.toLocaleString()} ea
-                          </span>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                            <span>Budget: ${col.budget.totalCost.toLocaleString()}</span>
+                            <span>{col.budget.totalCostINR || `₹${(col.budget.totalCost * 83).toLocaleString('en-IN')}`}</span>
+                          </div>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '11px', opacity: 0.8 }}>
+                            <span>{col.budget.duration}d / {col.budget.travelers}p</span>
+                            <span>${col.budget.costPerPerson.toLocaleString()} / {col.budget.costPerPersonINR || `₹${(col.budget.costPerPerson * 83).toLocaleString('en-IN')}`} ea</span>
+                          </div>
                         </div>
                       ) : (
                         col.countries.length > 0 && (
